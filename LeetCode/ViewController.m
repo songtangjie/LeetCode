@@ -13,6 +13,8 @@
 #import "ListNode.h"
 #import "QuickSort.h"
 #import "Day03.h"
+#import "Day04.h"
+#import "TreeNode.h"
 
 @interface ViewController ()
 
@@ -26,7 +28,8 @@
 //    [self testDay01];
 //    [self testDay02];
 //    [self testQuickSort];
-    [self testDay03];
+//    [self testDay03];
+    [self testDay04];
 }
 
 - (void)testDay01
@@ -101,6 +104,35 @@
     while (result) {
       NSLog(@"val is %d.",result.val);
       result = result.next;
+    }
+}
+
+- (void)testDay04
+{
+    Day04 *day04 = [[Day04 alloc]init];
+    
+    //树一
+    TreeNode *tree1 = [[TreeNode alloc]initWithVal:2];
+    TreeNode *tree1Left = [[TreeNode alloc]initWithVal:1];
+    tree1.left = tree1Left;
+    TreeNode *tree1Right = [[TreeNode alloc]initWithVal:3];
+    tree1.right = tree1Right;
+    
+    //树二
+    TreeNode *tree2 = [[TreeNode alloc]initWithVal:5];
+    TreeNode *tree2Left = [[TreeNode alloc]initWithVal:1];
+    tree2.left = tree2Left;
+    TreeNode *tree2Right = [[TreeNode alloc]initWithVal:4];
+    tree2.right = tree2Right;
+    TreeNode *tree2RightL = [[TreeNode alloc]initWithVal:3];
+    tree2Right.left = tree2RightL;
+    TreeNode *tree2RightR = [[TreeNode alloc]initWithVal:6];
+    tree2Right.right = tree2RightR;
+
+    if ([day04 isValidBST3:tree1]) {
+        NSLog(@"Yes.");
+    } else {
+        NSLog(@"No.");
     }
 }
 

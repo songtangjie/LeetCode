@@ -30,7 +30,7 @@
     }
     
     //不能用int默认值是0，可能节点值为负数
-    if (self.last || [self.last intValue] >= root.val) {
+    if (self.last && [self.last intValue] >= root.val) {
         return NO;
     }
     self.last = [NSString stringWithFormat:@"%d",root.val];
@@ -96,11 +96,35 @@
     
     Queue *nodes = [[Queue alloc]init];
     Queue *mins = [[Queue alloc]init];
-    Queue *max = [[Queue alloc]init];
-    [nodes offer:root.val];
+    Queue *maxs = [[Queue alloc]init];
+    [nodes offer:root];
+    [mins offer:nil];
+    [maxs offer:nil];
     
-    while (YES) {
+    while (![nodes isEmpty]) {
+        TreeNode *node = [nodes poll];
+        NSString *min = [mins poll];
+        NSString *max = [maxs poll];
         
+        if ([min intValue] != -1 && [min intValue] >= node.val) {
+            return NO;
+        }
+        
+        if ([max intValue] != -1 && [max intValue] <= node.val) {
+            return NO;
+        }
+        
+        if (node.left) {
+            [nodes offer:node.left];
+            [mins offer:min];
+            [maxs offer:[NSString stringWithFormat:@"%d",node.val]];
+        }
+        
+        if (node.right) {
+            [nodes offer:node.right];
+            [mins offer:[NSString stringWithFormat:@"%d",node.val]];
+            [maxs offer:max];
+        }
     }
     
     return YES;

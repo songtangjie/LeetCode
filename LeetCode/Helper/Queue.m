@@ -16,19 +16,24 @@
 
 @implementation Queue
 
-- (void)offer:(int)number
+- (void)offer:(id)node
 {
-    [self.array insertObject:@(number) atIndex:0];
+    [self.array insertObject:node?:@"-1" atIndex:0];//-1表示空,用于占位
 }
 
-- (int)poll
+- (id)poll
 {
     if (self.array.count > 0) {
-        int obj = [[self.array lastObject] intValue];
+        id obj = [self.array lastObject];
         [self.array removeLastObject];
         return obj;
     }
-    return 0;
+    return nil;
+}
+
+- (BOOL)isEmpty
+{
+    return self.array.count == 0;
 }
 
 - (NSMutableArray *)array

@@ -7,14 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "TreeNode.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface Queue : NSObject
 
-- (void)offer:(int)number;
+- (void)offer:(id)node;
 
-- (int)poll;
+- (id)poll;
+
+- (BOOL)isEmpty;
 
 @end
 
