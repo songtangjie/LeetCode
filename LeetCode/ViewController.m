@@ -15,6 +15,7 @@
 #import "Day03.h"
 #import "Day04.h"
 #import "TreeNode.h"
+#import "Day05.h"
 
 @interface ViewController ()
 
@@ -29,7 +30,8 @@
 //    [self testDay02];
 //    [self testQuickSort];
 //    [self testDay03];
-    [self testDay04];
+//    [self testDay04];
+    [self testDay05];
 }
 
 - (void)testDay01
@@ -134,6 +136,24 @@
     } else {
         NSLog(@"No.");
     }
+}
+
+- (void)testDay05
+{
+    Day05 *day05 = [[Day05 alloc]init];
+    
+    //树
+    TreeNode *root = [[TreeNode alloc]initWithVal:-10];
+    TreeNode *rootLeft = [[TreeNode alloc]initWithVal:9];
+    root.left = rootLeft;
+    TreeNode *rootRight = [[TreeNode alloc]initWithVal:20];
+    root.right = rootRight;
+    TreeNode *rootRightL = [[TreeNode alloc]initWithVal:15];
+    rootRight.left = rootRightL;
+    TreeNode *rootRightR = [[TreeNode alloc]initWithVal:7];
+    rootRight.right = rootRightR;
+
+    NSLog(@"sum = %d",[day05 maxPathSum:root]);
 }
 
 @end
