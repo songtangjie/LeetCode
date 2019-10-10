@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE4947A7234F7A510032FA6B /* Day06.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4947A6234F7A510032FA6B /* Day06.m */; };
 		BE8705C02337CB2000F03605 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8705BF2337CB2000F03605 /* AppDelegate.m */; };
 		BE8705C32337CB2000F03605 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8705C22337CB2000F03605 /* SceneDelegate.m */; };
 		BE8705C62337CB2000F03605 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8705C52337CB2000F03605 /* ViewController.m */; };
@@ -45,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BE4947A5234F7A510032FA6B /* Day06.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Day06.h; sourceTree = "<group>"; };
+		BE4947A6234F7A510032FA6B /* Day06.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day06.m; sourceTree = "<group>"; };
 		BE8705BB2337CB2000F03605 /* LeetCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE8705BE2337CB2000F03605 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BE8705BF2337CB2000F03605 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -169,6 +172,8 @@
 				BEE1AF9A233A0C76009BED02 /* Day04.m */,
 				BEB92204233BABE200321E5E /* Day05.h */,
 				BEB92205233BABE200321E5E /* Day05.m */,
+				BE4947A5234F7A510032FA6B /* Day06.h */,
+				BE4947A6234F7A510032FA6B /* Day06.m */,
 			);
 			path = Answer;
 			sourceTree = "<group>";
@@ -332,6 +337,7 @@
 				BE8705C32337CB2000F03605 /* SceneDelegate.m in Sources */,
 				BEE1AF8F233A0BA5009BED02 /* Stack.m in Sources */,
 				BEE1AF8C233A0BA5009BED02 /* Queue.m in Sources */,
+				BE4947A7234F7A510032FA6B /* Day06.m in Sources */,
 				BEE1AF9E233A0D19009BED02 /* TreeNode.m in Sources */,
 				BEE1AF97233A0BAE009BED02 /* Day03.m in Sources */,
 			);
