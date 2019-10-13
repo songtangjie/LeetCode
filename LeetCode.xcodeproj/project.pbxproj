@@ -16,6 +16,7 @@
 		BE8705D12337CB2100F03605 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE8705CF2337CB2100F03605 /* LaunchScreen.storyboard */; };
 		BE8705D42337CB2100F03605 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8705D32337CB2100F03605 /* main.m */; };
 		BE8705E92337CB2100F03605 /* LeetCodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8705E82337CB2100F03605 /* LeetCodeUITests.m */; };
+		BE8D8F752352F2A000C75BCE /* Day07.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8D8F742352F2A000C75BCE /* Day07.m */; };
 		BEB92206233BABE200321E5E /* Day05.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB92205233BABE200321E5E /* Day05.m */; };
 		BEE1AF8C233A0BA5009BED02 /* Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE1AF84233A0BA4009BED02 /* Queue.m */; };
 		BEE1AF8D233A0BA5009BED02 /* ListNode.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE1AF85233A0BA5009BED02 /* ListNode.m */; };
@@ -64,6 +65,8 @@
 		BE8705E42337CB2100F03605 /* LeetCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeetCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE8705E82337CB2100F03605 /* LeetCodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeetCodeUITests.m; sourceTree = "<group>"; };
 		BE8705EA2337CB2100F03605 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE8D8F732352F2A000C75BCE /* Day07.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Day07.h; sourceTree = "<group>"; };
+		BE8D8F742352F2A000C75BCE /* Day07.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day07.m; sourceTree = "<group>"; };
 		BEB92204233BABE200321E5E /* Day05.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Day05.h; sourceTree = "<group>"; };
 		BEB92205233BABE200321E5E /* Day05.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day05.m; sourceTree = "<group>"; };
 		BEE1AF84233A0BA4009BED02 /* Queue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Queue.m; sourceTree = "<group>"; };
@@ -174,6 +177,8 @@
 				BEB92205233BABE200321E5E /* Day05.m */,
 				BE4947A5234F7A510032FA6B /* Day06.h */,
 				BE4947A6234F7A510032FA6B /* Day06.m */,
+				BE8D8F732352F2A000C75BCE /* Day07.h */,
+				BE8D8F742352F2A000C75BCE /* Day07.m */,
 			);
 			path = Answer;
 			sourceTree = "<group>";
@@ -332,6 +337,7 @@
 				BE8705C62337CB2000F03605 /* ViewController.m in Sources */,
 				BEE1AF8D233A0BA5009BED02 /* ListNode.m in Sources */,
 				BEE1AF96233A0BAE009BED02 /* Day02.m in Sources */,
+				BE8D8F752352F2A000C75BCE /* Day07.m in Sources */,
 				BE8705C02337CB2000F03605 /* AppDelegate.m in Sources */,
 				BEE1AF8E233A0BA5009BED02 /* QuickSort.m in Sources */,
 				BE8705C32337CB2000F03605 /* SceneDelegate.m in Sources */,

@@ -17,6 +17,7 @@
 #import "TreeNode.h"
 #import "Day05.h"
 #import "Day06.h"
+#import "Day07.h"
 
 @interface ViewController ()
 
@@ -33,7 +34,8 @@
 //    [self testDay03];
 //    [self testDay04];
 //    [self testDay05];
-    [self testDay06];
+//    [self testDay06];
+    [self testDay07];
 }
 
 - (void)testDay01
@@ -176,6 +178,14 @@
     rootRight.right = rootRightR;
 
     [day06 flatten2:root];
+}
+
+- (void)testDay07
+{
+    Day07 *day07 = [[Day07 alloc]init];
+    NSArray *arr = @[@(1),@(2),@(3),@(1)];
+//    NSArray *arr = @[@(2),@(7),@(9),@(3),@(1)];
+    NSLog(@"result is %d", [day07 rob:arr]);
 }
 
 @end
