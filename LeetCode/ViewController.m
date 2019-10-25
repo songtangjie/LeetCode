@@ -18,6 +18,7 @@
 #import "Day05.h"
 #import "Day06.h"
 #import "Day07.h"
+#import "Day08.h"
 
 @interface ViewController ()
 
@@ -35,7 +36,8 @@
 //    [self testDay04];
 //    [self testDay05];
 //    [self testDay06];
-    [self testDay07];
+//    [self testDay07];
+    [self testDay08];
 }
 
 - (void)testDay01
@@ -186,6 +188,17 @@
     NSArray *arr = @[@(1),@(2),@(3),@(1)];
 //    NSArray *arr = @[@(2),@(7),@(9),@(3),@(1)];
     NSLog(@"result is %d", [day07 rob:arr]);
+}
+
+- (void)testDay08
+{
+    Day08 *day08 = [[Day08 alloc]init];
+    NSArray *arr = @[@(1),@(1),@(1),@(2),@(2),@(3),];
+    
+    NSArray *result = [day08 topKFrequent:arr k:2];
+    for (NSNumber *num in result) {
+        NSLog(@"%@", num);
+    }
 }
 
 @end

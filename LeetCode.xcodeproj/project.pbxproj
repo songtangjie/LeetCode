@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE3997762362C9E80022397E /* Day08.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3997752362C9E80022397E /* Day08.m */; };
+		BE3997782362CFF40022397E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BE3997772362CFF40022397E /* README.md */; };
 		BE4947A7234F7A510032FA6B /* Day06.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4947A6234F7A510032FA6B /* Day06.m */; };
 		BE8705C02337CB2000F03605 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8705BF2337CB2000F03605 /* AppDelegate.m */; };
 		BE8705C32337CB2000F03605 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8705C22337CB2000F03605 /* SceneDelegate.m */; };
@@ -47,6 +49,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BE3997742362C9E80022397E /* Day08.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Day08.h; sourceTree = "<group>"; };
+		BE3997752362C9E80022397E /* Day08.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day08.m; sourceTree = "<group>"; };
+		BE3997772362CFF40022397E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BE4947A5234F7A510032FA6B /* Day06.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Day06.h; sourceTree = "<group>"; };
 		BE4947A6234F7A510032FA6B /* Day06.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day06.m; sourceTree = "<group>"; };
 		BE8705BB2337CB2000F03605 /* LeetCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,6 +122,7 @@
 		BE8705B22337CB2000F03605 = {
 			isa = PBXGroup;
 			children = (
+				BE3997772362CFF40022397E /* README.md */,
 				BE8705BD2337CB2000F03605 /* LeetCode */,
 				BE8705E72337CB2100F03605 /* LeetCodeUITests */,
 				BE8705BC2337CB2000F03605 /* Products */,
@@ -179,6 +185,8 @@
 				BE4947A6234F7A510032FA6B /* Day06.m */,
 				BE8D8F732352F2A000C75BCE /* Day07.h */,
 				BE8D8F742352F2A000C75BCE /* Day07.m */,
+				BE3997742362C9E80022397E /* Day08.h */,
+				BE3997752362C9E80022397E /* Day08.m */,
 			);
 			path = Answer;
 			sourceTree = "<group>";
@@ -305,6 +313,7 @@
 			files = (
 				BE8705D12337CB2100F03605 /* LaunchScreen.storyboard in Resources */,
 				BE8705CE2337CB2100F03605 /* Assets.xcassets in Resources */,
+				BE3997782362CFF40022397E /* README.md in Resources */,
 				BE8705C92337CB2000F03605 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,6 +351,7 @@
 				BEE1AF8E233A0BA5009BED02 /* QuickSort.m in Sources */,
 				BE8705C32337CB2000F03605 /* SceneDelegate.m in Sources */,
 				BEE1AF8F233A0BA5009BED02 /* Stack.m in Sources */,
+				BE3997762362C9E80022397E /* Day08.m in Sources */,
 				BEE1AF8C233A0BA5009BED02 /* Queue.m in Sources */,
 				BE4947A7234F7A510032FA6B /* Day06.m in Sources */,
 				BEE1AF9E233A0D19009BED02 /* TreeNode.m in Sources */,

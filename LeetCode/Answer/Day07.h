@@ -18,10 +18,6 @@ NS_ASSUME_NONNULL_BEGIN
  输出: 4
  解释: 偷窃 1 号房屋 (金额 = 1) ，然后偷窃 3 号房屋 (金额 = 3)。
       偷窃到的最高金额 = 1 + 3 = 4 。
-
- 来源：力扣（LeetCode）
- 链接：https://leetcode-cn.com/problems/house-robber
- 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 */
 - (int)rob:(NSArray *)nums;
 
