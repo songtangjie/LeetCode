@@ -20,6 +20,7 @@
 		BE8705E92337CB2100F03605 /* LeetCodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8705E82337CB2100F03605 /* LeetCodeUITests.m */; };
 		BE8D8F752352F2A000C75BCE /* Day07.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8D8F742352F2A000C75BCE /* Day07.m */; };
 		BEB92206233BABE200321E5E /* Day05.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB92205233BABE200321E5E /* Day05.m */; };
+		BEBDBAF12368435F004E36FF /* Day09.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBDBAF02368435F004E36FF /* Day09.m */; };
 		BEE1AF8C233A0BA5009BED02 /* Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE1AF84233A0BA4009BED02 /* Queue.m */; };
 		BEE1AF8D233A0BA5009BED02 /* ListNode.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE1AF85233A0BA5009BED02 /* ListNode.m */; };
 		BEE1AF8E233A0BA5009BED02 /* QuickSort.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE1AF88233A0BA5009BED02 /* QuickSort.m */; };
@@ -74,6 +75,8 @@
 		BE8D8F742352F2A000C75BCE /* Day07.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day07.m; sourceTree = "<group>"; };
 		BEB92204233BABE200321E5E /* Day05.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Day05.h; sourceTree = "<group>"; };
 		BEB92205233BABE200321E5E /* Day05.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day05.m; sourceTree = "<group>"; };
+		BEBDBAEF2368435F004E36FF /* Day09.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Day09.h; sourceTree = "<group>"; };
+		BEBDBAF02368435F004E36FF /* Day09.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day09.m; sourceTree = "<group>"; };
 		BEE1AF84233A0BA4009BED02 /* Queue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Queue.m; sourceTree = "<group>"; };
 		BEE1AF85233A0BA5009BED02 /* ListNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListNode.m; sourceTree = "<group>"; };
 		BEE1AF86233A0BA5009BED02 /* ListNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListNode.h; sourceTree = "<group>"; };
@@ -187,6 +190,8 @@
 				BE8D8F742352F2A000C75BCE /* Day07.m */,
 				BE3997742362C9E80022397E /* Day08.h */,
 				BE3997752362C9E80022397E /* Day08.m */,
+				BEBDBAEF2368435F004E36FF /* Day09.h */,
+				BEBDBAF02368435F004E36FF /* Day09.m */,
 			);
 			path = Answer;
 			sourceTree = "<group>";
@@ -354,6 +359,7 @@
 				BE3997762362C9E80022397E /* Day08.m in Sources */,
 				BEE1AF8C233A0BA5009BED02 /* Queue.m in Sources */,
 				BE4947A7234F7A510032FA6B /* Day06.m in Sources */,
+				BEBDBAF12368435F004E36FF /* Day09.m in Sources */,
 				BEE1AF9E233A0D19009BED02 /* TreeNode.m in Sources */,
 				BEE1AF97233A0BAE009BED02 /* Day03.m in Sources */,
 			);
