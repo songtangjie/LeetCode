@@ -30,15 +30,8 @@
     
     for (int r = 0; r < s.length; r++) {
         for (int l = 0; l <= r; l++) {
-            if ((r == 0 && l == 0) || (r == s.length - 1 && l == s.length - 1)) {
-                arr[l][r] = @(1);
-                 NSString *subStr = [s substringWithRange:NSMakeRange(l, r + 1 - l)];
-                 [map setObject:subStr forKey:subStr];
-                continue;
-            }
-            
             if ([s characterAtIndex:r] == [s characterAtIndex:l] && (r - l <= 2 || ([arr[l+1][r-1] intValue] == 1))) {
-                arr[l+1][r-1] = @(1);
+                arr[l][r] = @(1);
                 NSString *subStr = [s substringWithRange:NSMakeRange(l, r + 1 - l)];
                 [map setObject:subStr forKey:subStr];
             }

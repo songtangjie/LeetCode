@@ -228,7 +228,7 @@
 - (void)testDay10
 {
     Day10 *day10 = [[Day10 alloc]init];
-    [day10 palindrome1:@"cbbd"];
+    [day10 palindrome3:@"cbbd"];
 }
 
 @end
