@@ -20,6 +20,7 @@
 #import "Day07.h"
 #import "Day08.h"
 #import "Day09.h"
+#import "Day10.h"
 
 @interface ViewController ()
 
@@ -39,7 +40,8 @@
 //    [self testDay06];
 //    [self testDay07];
 //    [self testDay08];
-    [self testDay09];
+//    [self testDay09];
+    [self testDay10];
 }
 
 - (void)testDay01
@@ -221,6 +223,12 @@
 //    ];
     
     NSLog([day09 isValidSudoku:arr1] ? @"Yes" : @"No");
+}
+
+- (void)testDay10
+{
+    Day10 *day10 = [[Day10 alloc]init];
+    [day10 palindrome1:@"cbbd"];
 }
 
 @end
