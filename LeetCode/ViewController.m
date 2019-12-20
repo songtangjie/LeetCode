@@ -21,6 +21,7 @@
 #import "Day08.h"
 #import "Day09.h"
 #import "Day10.h"
+#import "Day11.h"
 
 @interface ViewController ()
 
@@ -41,7 +42,8 @@
 //    [self testDay07];
 //    [self testDay08];
 //    [self testDay09];
-    [self testDay10];
+//    [self testDay10];
+    [self testDay11];
 }
 
 - (void)testDay01
@@ -229,6 +231,14 @@
 {
     Day10 *day10 = [[Day10 alloc]init];
     [day10 palindrome3:@"cbbd"];
+}
+
+- (void)testDay11
+{
+    Day11 *day = [[Day11 alloc]init];
+    
+    NSMutableArray *array = [NSMutableArray arrayWithObjects:@(1),@(5),@(1),@(1),@(6),@(4), nil];
+    [day wiggleSort2:array];
 }
 
 @end

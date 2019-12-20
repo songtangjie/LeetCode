@@ -10,9 +10,15 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+@class ListNode;
+
 @interface QuickSort : NSObject
 
-+ (void)quickSort:(NSMutableArray *)m low:(int)low high:(int)high;
+// 节点快速排序
++ (void)quickSort:(NSMutableArray<ListNode *> *)m low:(int)low high:(int)high;
+
+// 整数快速排序
++ (void)quickSortNums:(NSMutableArray *)m low:(int)low high:(int)high;
 
 @end
 
