@@ -22,6 +22,7 @@
 #import "Day09.h"
 #import "Day10.h"
 #import "Day11.h"
+#import "Day12.h"
 
 @interface ViewController ()
 
@@ -43,7 +44,8 @@
 //    [self testDay08];
 //    [self testDay09];
 //    [self testDay10];
-    [self testDay11];
+//    [self testDay11];
+    [self testDay12];
 }
 
 - (void)testDay01
@@ -240,5 +242,16 @@
     NSMutableArray *array = [NSMutableArray arrayWithObjects:@(1),@(5),@(1),@(1),@(6),@(4), nil];
     [day wiggleSort2:array];
 }
+
+- (void)testDay12
+{
+    Day12 *day = [[Day12 alloc]init];
+    
+    NSMutableArray *array = [NSMutableArray arrayWithObjects:@(1),@(3),@(4),@(2),@(2), nil];
+//    NSMutableArray *array = [NSMutableArray arrayWithObjects:@(3),@(1),@(3),@(4),@(2), nil];
+//    NSMutableArray *array = [NSMutableArray arrayWithObjects:@(1),@(1), nil];
+    NSLog(@"重复数字是%d",[day findDuplicate3:array]);
+}
+
 
 @end

@@ -21,6 +21,7 @@
 		BE8705D42337CB2100F03605 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8705D32337CB2100F03605 /* main.m */; };
 		BE8705E92337CB2100F03605 /* LeetCodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8705E82337CB2100F03605 /* LeetCodeUITests.m */; };
 		BE8D8F752352F2A000C75BCE /* Day07.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8D8F742352F2A000C75BCE /* Day07.m */; };
+		BEA0426123CF23A40009167F /* Day12.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA0426023CF23A40009167F /* Day12.m */; };
 		BEB92206233BABE200321E5E /* Day05.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB92205233BABE200321E5E /* Day05.m */; };
 		BEBDBAF12368435F004E36FF /* Day09.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBDBAF02368435F004E36FF /* Day09.m */; };
 		BEE1AF8C233A0BA5009BED02 /* Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE1AF84233A0BA4009BED02 /* Queue.m */; };
@@ -79,6 +80,8 @@
 		BE8705EA2337CB2100F03605 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE8D8F732352F2A000C75BCE /* Day07.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Day07.h; sourceTree = "<group>"; };
 		BE8D8F742352F2A000C75BCE /* Day07.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day07.m; sourceTree = "<group>"; };
+		BEA0425F23CF23A40009167F /* Day12.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Day12.h; sourceTree = "<group>"; };
+		BEA0426023CF23A40009167F /* Day12.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day12.m; sourceTree = "<group>"; };
 		BEB92204233BABE200321E5E /* Day05.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Day05.h; sourceTree = "<group>"; };
 		BEB92205233BABE200321E5E /* Day05.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day05.m; sourceTree = "<group>"; };
 		BEBDBAEF2368435F004E36FF /* Day09.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Day09.h; sourceTree = "<group>"; };
@@ -202,6 +205,8 @@
 				BE525F1D238E53C5009BD896 /* Day10.m */,
 				BE48D11C23ACCC34009C1F5D /* Day11.h */,
 				BE48D11D23ACCC34009C1F5D /* Day11.m */,
+				BEA0425F23CF23A40009167F /* Day12.h */,
+				BEA0426023CF23A40009167F /* Day12.m */,
 			);
 			path = Answer;
 			sourceTree = "<group>";
@@ -372,6 +377,7 @@
 				BEE1AF8C233A0BA5009BED02 /* Queue.m in Sources */,
 				BE4947A7234F7A510032FA6B /* Day06.m in Sources */,
 				BEBDBAF12368435F004E36FF /* Day09.m in Sources */,
+				BEA0426123CF23A40009167F /* Day12.m in Sources */,
 				BEE1AF9E233A0D19009BED02 /* TreeNode.m in Sources */,
 				BEE1AF97233A0BAE009BED02 /* Day03.m in Sources */,
 			);

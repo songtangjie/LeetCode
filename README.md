@@ -29,3 +29,6 @@ Day10  获取字符串里的回文子串
 
 Day11 摆动排序
 https://leetcode-cn.com/problems/wiggle-sort-ii/
+
+Day12 寻找重复数
+https://leetcode-cn.com/problems/find-the-duplicate-number/
