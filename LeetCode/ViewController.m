@@ -23,6 +23,7 @@
 #import "Day10.h"
 #import "Day11.h"
 #import "Day12.h"
+#import "Day13.h"
 
 @interface ViewController ()
 
@@ -45,7 +46,8 @@
 //    [self testDay09];
 //    [self testDay10];
 //    [self testDay11];
-    [self testDay12];
+//    [self testDay12];
+    [self testDay13];
 }
 
 - (void)testDay01
@@ -251,6 +253,21 @@
 //    NSMutableArray *array = [NSMutableArray arrayWithObjects:@(3),@(1),@(3),@(4),@(2), nil];
 //    NSMutableArray *array = [NSMutableArray arrayWithObjects:@(1),@(1), nil];
     NSLog(@"重复数字是%d",[day findDuplicate3:array]);
+}
+
+- (void)testDay13
+{
+    Day13 *day = [[Day13 alloc]init];
+    
+    NSArray *array = @[
+      @[@1,   @4,  @7, @11, @15],
+      @[@2,   @5,  @8, @12, @19],
+      @[@3,   @6,  @9, @16, @22],
+      @[@10, @13, @14, @17, @24],
+      @[@18, @21, @23, @26, @30]
+    ];
+    
+    NSLog(@"是否有值%d", [day searchMatrix:array target:20]);
 }
 
 
