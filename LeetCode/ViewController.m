@@ -24,6 +24,7 @@
 #import "Day11.h"
 #import "Day12.h"
 #import "Day13.h"
+#import "Day14.h"
 
 @interface ViewController ()
 
@@ -47,7 +48,8 @@
 //    [self testDay10];
 //    [self testDay11];
 //    [self testDay12];
-    [self testDay13];
+//    [self testDay13];
+    [self testDay14];
 }
 
 - (void)testDay01
@@ -268,6 +270,15 @@
     ];
     
     NSLog(@"是否有值%d", [day searchMatrix:array target:20]);
+}
+
+- (void)testDay14
+{
+    Day14 *day = [Day14 new];
+    
+    NSMutableArray *array1 = [NSMutableArray arrayWithObjects:@1,@2,@3,@0,@0,@0,@0,@0, nil];
+    NSMutableArray *array2 = [NSMutableArray arrayWithObjects:@1,@1,@2,@5,@6, nil];
+    [day merge1:array1 m:3 num2:array2 n:5];
 }
 
 
