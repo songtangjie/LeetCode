@@ -25,6 +25,7 @@
 #import "Day12.h"
 #import "Day13.h"
 #import "Day14.h"
+#import "Day15.h"
 
 @interface ViewController ()
 
@@ -49,7 +50,8 @@
 //    [self testDay11];
 //    [self testDay12];
 //    [self testDay13];
-    [self testDay14];
+//    [self testDay14];
+    [self testDay15];
 }
 
 - (void)testDay01
@@ -281,5 +283,13 @@
     [day merge1:array1 m:3 num2:array2 n:5];
 }
 
+- (void)testDay15
+{
+    Day15 *day = [Day15 new];
+    
+//    NSMutableArray *array = [NSMutableArray arrayWithObjects:@3,@4,@5,@1,@2, nil];
+    NSMutableArray *array = [NSMutableArray arrayWithObjects:@2,@2,@2,@0,@1, nil];
+    NSLog(@"最小值是%d",[day findMin:array]);
+}
 
 @end
