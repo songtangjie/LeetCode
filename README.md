@@ -41,3 +41,6 @@ https://leetcode-cn.com/problems/merge-sorted-array/
 
 Day15 寻找旋转排序数组中的最小值
 https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/
+
+Day16 按奇偶排序数组
+https://leetcode-cn.com/problems/sort-array-by-parity/
