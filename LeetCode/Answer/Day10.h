@@ -16,13 +16,13 @@ NS_ASSUME_NONNULL_BEGIN
  获取字符串里所有回文子串
  暴力法【时间O(n^3),空间O(1)】
 */
-- (void)palindrome1:(NSString *)s;
++ (void)palindrome1:(NSString *)s;
 
 /// 中心扩散法【时间O(n^2),空间O(1)】
-- (void)palindrome2:(NSString *)s;
++ (void)palindrome2:(NSString *)s;
 
 /// 动态规划矩阵法【时间O(n^2),空间O(n^2)】
-- (void)palindrome3:(NSString *)s;
++ (void)palindrome3:(NSString *)s;
 
 @end
 

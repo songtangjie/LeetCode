@@ -11,7 +11,7 @@
 @implementation Day08
 
 /// 全排序
-- (NSArray<NSNumber *> *)topKFrequent:(NSArray<NSNumber *> *)nums k:(int)k
++ (NSArray<NSNumber *> *)topKFrequent:(NSArray<NSNumber *> *)nums k:(int)k
 {
     //放map里过滤存储
     NSMutableDictionary *dict = [NSMutableDictionary dictionary];

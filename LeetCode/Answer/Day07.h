@@ -19,7 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
  解释: 偷窃 1 号房屋 (金额 = 1) ，然后偷窃 3 号房屋 (金额 = 3)。
       偷窃到的最高金额 = 1 + 3 = 4 。
 */
-- (int)rob:(NSArray *)nums;
++ (int)rob:(NSArray *)nums;
 
 @end
 

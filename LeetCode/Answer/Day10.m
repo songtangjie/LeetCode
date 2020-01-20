@@ -11,7 +11,7 @@
 @implementation Day10
 
 /// 动态规划矩阵法【时间O(n^2),空间O(n^2)】
-- (void)palindrome3:(NSString *)s
++ (void)palindrome3:(NSString *)s
 {
     NSMutableDictionary *map = [NSMutableDictionary dictionary];
     
@@ -44,7 +44,7 @@
 }
 
 /// 中心扩散法【时间O(n^2),空间O(1)】
-- (void)palindrome2:(NSString *)s
++ (void)palindrome2:(NSString *)s
 {
     NSMutableDictionary *map = [NSMutableDictionary dictionary];
     
@@ -70,7 +70,7 @@
     }
 }
 
-- (NSString *)subStr:(NSString *)s left:(int)left right:(int)right
++ (NSString *)subStr:(NSString *)s left:(int)left right:(int)right
 {
     int i = left;
     int j = right;
@@ -83,7 +83,7 @@
 }
 
 /// 暴力法【时间O(n^3),空间O(1)】
-- (void)palindrome1:(NSString *)s
++ (void)palindrome1:(NSString *)s
 {
     NSMutableDictionary *map = [NSMutableDictionary dictionary];
     

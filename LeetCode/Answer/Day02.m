@@ -10,7 +10,7 @@
 
 @implementation Day02
 
-- (ListNode *)mergeTwoLists:(ListNode *)l1 listNode:(ListNode *)l2
++ (ListNode *)mergeTwoLists:(ListNode *)l1 listNode:(ListNode *)l2
 {
     //判空
     if (!l1) {
@@ -48,7 +48,7 @@
 /**
  有序的双链表合并【递归】
  */
-- (ListNode *)mergeTwoLists2:(ListNode *)l1 listNode:(ListNode *)l2
++ (ListNode *)mergeTwoLists2:(ListNode *)l1 listNode:(ListNode *)l2
 {
     //判空
     if (!l1) {

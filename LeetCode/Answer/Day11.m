@@ -11,7 +11,7 @@
 
 @implementation Day11
 
-- (void)wiggleSort:(NSMutableArray *)nums
++ (void)wiggleSort:(NSMutableArray *)nums
 {
     // 先排序
     [QuickSort quickSortNums:nums low:0 high:(int)(nums.count-1)];
@@ -42,7 +42,7 @@
 /*
  排序优化O(n)
  */
-- (void)wiggleSort2:(NSMutableArray *)nums
++ (void)wiggleSort2:(NSMutableArray *)nums
 {
     if (nums.count < 2) {
         return;
@@ -89,7 +89,7 @@
 }
 
 // 快速选择排序【不一定保证所有顺序，只能分三部分】
-- (void)quickSelect:(NSMutableArray *)nums begin:(int)begin end:(int)end  n:(NSInteger)n
++ (void)quickSelect:(NSMutableArray *)nums begin:(int)begin end:(int)end  n:(NSInteger)n
 {
     int t = [nums[end - 1] intValue];
     int i = begin;
@@ -111,7 +111,7 @@
 }
 
 // 交换数组2个数
-- (void)swap:(NSMutableArray *)a i:(int)i j:(int)j
++ (void)swap:(NSMutableArray *)a i:(int)i j:(int)j
 {
     NSNumber *temp = a[i];
     a[i] = a[j];

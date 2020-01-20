@@ -15,7 +15,7 @@
 
 @implementation Day01
 
-- (int)evalRPN:(NSArray<NSString *> *)strArr
++ (int)evalRPN:(NSArray<NSString *> *)strArr
 {
     Stack *stack = [Stack new];
     

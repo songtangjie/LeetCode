@@ -15,12 +15,12 @@ NS_ASSUME_NONNULL_BEGIN
 /* 从后往前，双指针查找插入
  * 时间复杂度:O(n+m)，时间复杂度:O(1)
  */
-- (void)merge1:(NSMutableArray *)num1 m:(int)m num2:(NSMutableArray *)nums2 n:(int)n;
++ (void)merge1:(NSMutableArray *)num1 m:(int)m num2:(NSMutableArray *)nums2 n:(int)n;
 
 /* 合并后排序
  * 时间复杂度:O((n+m)log(n+m))，时间复杂度:O(1)
  */
-- (void)merge2:(NSMutableArray *)num1 m:(int)m num2:(NSMutableArray *)nums2 n:(int)n;
++ (void)merge2:(NSMutableArray *)num1 m:(int)m num2:(NSMutableArray *)nums2 n:(int)n;
 
 @end
 

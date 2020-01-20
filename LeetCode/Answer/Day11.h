@@ -16,12 +16,12 @@ NS_ASSUME_NONNULL_BEGIN
  * 先排序再穿插
  * O(logn)+O(n)
  */
-- (void)wiggleSort:(NSMutableArray *)nums;
++ (void)wiggleSort:(NSMutableArray *)nums;
 
 /*
  排序优化O(n)，先排序再穿插,排序用快速选择，然后将数组分为3部分：小+中+大
  */
-- (void)wiggleSort2:(NSMutableArray *)nums;
++ (void)wiggleSort2:(NSMutableArray *)nums;
 
 @end
 

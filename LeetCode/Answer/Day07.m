@@ -10,7 +10,7 @@
 
 @implementation Day07
 
-- (int)rob:(NSArray *)nums
++ (int)rob:(NSArray *)nums
 {
     if (!nums) {
         return 0;
@@ -29,7 +29,7 @@
 }
 
 /// 此方法效率较差，属于斐波那契数列，大量重复计算
-- (int)rob2:(NSArray *)nums
++ (int)rob2:(NSArray *)nums
 {
     if (!nums || nums.count == 0) {
         return 0;
@@ -38,7 +38,7 @@
 }
 
 /// 从后往前遍历
-- (int)preRob2:(NSArray *)nums begin:(int)begin
++ (int)preRob2:(NSArray *)nums begin:(int)begin
 {
     if (begin == 0) {
         return [nums[0] intValue];
@@ -56,7 +56,7 @@
 }
 
 /// 从前往后遍历
-- (int)preRob:(NSArray *)nums begin:(int)begin
++ (int)preRob:(NSArray *)nums begin:(int)begin
 {
     if (begin == nums.count-1) {
         return [nums[begin] intValue];

@@ -14,7 +14,7 @@
 /* 先排序再查找前后数字
  * 时间复杂度:O(n)，时间复杂度:O(1)或O(n)
  */
-- (int)findDuplicate1:(NSMutableArray *)nums
++ (int)findDuplicate1:(NSMutableArray *)nums
 {
     [QuickSort quickSortNums:nums low:0 high:(int)nums.count-1];
     for (int i = 1; i < nums.count; i++) {
@@ -28,7 +28,7 @@
 /* 用哈希表的唯一性来判断
  * 时间复杂度:O(n)，时间复杂度:O(n)
  */
-- (int)findDuplicate2:(NSMutableArray *)nums
++ (int)findDuplicate2:(NSMutableArray *)nums
 {
     NSMutableSet *set = [NSMutableSet new];
     for (NSNumber *num in nums) {
@@ -43,7 +43,7 @@
 /* 快慢指针查找链表的环
  * 时间复杂度:O(n)，时间复杂度:O(1)
  */
-- (int)findDuplicate3:(NSMutableArray *)nums
++ (int)findDuplicate3:(NSMutableArray *)nums
 {
     int slow = [nums[0] intValue];
     int fast = [nums[[nums[0] intValue]] intValue];

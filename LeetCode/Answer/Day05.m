@@ -15,7 +15,7 @@ static int sum = INT_MIN;
 /**
  二叉树中的最大路径和
 */
-- (int)maxPathSum:(TreeNode *)root
++ (int)maxPathSum:(TreeNode *)root
 {
     if (!root) {
         return 0;
@@ -26,7 +26,7 @@ static int sum = INT_MIN;
 
 
 /// 求出经过该点的左右最大值
-- (int)nodeValue:(TreeNode *)node
++ (int)nodeValue:(TreeNode *)node
 {
     if (!node) {
         return 0;

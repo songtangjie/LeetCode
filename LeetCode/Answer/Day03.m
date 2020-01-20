@@ -13,7 +13,7 @@
 @implementation Day03
 
 /// 解法一：所有元素放进数组排序，然后串起来
-- (ListNode *)mergeKLists:(NSMutableArray<ListNode *> *)lists
++ (ListNode *)mergeKLists:(NSMutableArray<ListNode *> *)lists
 {
     if (!lists || lists.count == 0) {
         return nil;
@@ -44,7 +44,7 @@
 }
 
 /// 解法二：遍历取出链表数组第一个节点，取最小的节点，然后串起来
-- (ListNode *)mergeKLists2:(NSMutableArray<ListNode *> *)lists
++ (ListNode *)mergeKLists2:(NSMutableArray<ListNode *> *)lists
 {
     if (!lists || lists.count == 0) {
         return nil;
@@ -85,36 +85,32 @@
 }
 
 /// 解法三：两两合并链表，给第一个赋值
-- (ListNode *)mergeKLists3:(NSMutableArray<ListNode *> *)lists
++ (ListNode *)mergeKLists3:(NSMutableArray<ListNode *> *)lists
 {
     if (!lists || lists.count == 0) {
         return nil;
     }
-    
-    Day02 *tool = [[Day02 alloc]init];
-    
+        
     for (int i = 1; i < lists.count; i++) {
-        lists[0] = [tool mergeTwoLists:lists[0] listNode:lists[i]];
+        lists[0] = [Day02 mergeTwoLists:lists[0] listNode:lists[i]];
     }
     return lists[0];
 }
 
 /// 解法四：两两合并链表，归并
-- (ListNode *)mergeKLists4:(NSMutableArray<ListNode *> *)lists
++ (ListNode *)mergeKLists4:(NSMutableArray<ListNode *> *)lists
 {
     if (!lists || lists.count == 0) {
         return nil;
     }
-    
-    Day02 *tool = [[Day02 alloc]init];
-    
+      
     int step = 1;
     
     while (step < lists.count) {
         int nextStep = step << 1;
         
         for (int i = 0; i+step < lists.count; i += nextStep) {
-            lists[0] = [tool mergeTwoLists:lists[i] listNode:lists[i+step]];
+            lists[0] = [Day02 mergeTwoLists:lists[i] listNode:lists[i+step]];
         }
         
         step = nextStep;

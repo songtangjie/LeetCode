@@ -11,7 +11,7 @@
 @implementation Day09
 
 //使用Set数据类型
-- (BOOL)isValidSudoku:(NSArray<NSArray<NSString *> *> *)board
++ (BOOL)isValidSudoku:(NSArray<NSArray<NSString *> *> *)board
 {
     NSMutableArray<NSMutableSet *> *rows = [NSMutableArray arrayWithCapacity:9];
     NSMutableArray<NSMutableSet *> *cols = [NSMutableArray arrayWithCapacity:9];

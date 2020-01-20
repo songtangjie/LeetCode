@@ -15,7 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  输入逆波兰式计算求值
  */
-- (int)evalRPN:(NSArray<NSString *> *)strArr;
++ (int)evalRPN:(NSArray<NSString *> *)strArr;
 
 @end
 

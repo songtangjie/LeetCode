@@ -1,5 +1,5 @@
 //
-//  Day16.h
+//  Day17.h
 //  LeetCode
 //
 //  Created by william on 2020/1/20.
@@ -7,15 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ListNode.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Day16 : NSObject
+@interface Day17 : NSObject
 
-/* 双指针交换
- * 时间复杂度:O(n)，空间复杂度:O(1)
+/* 快慢指针
+ * 时间复杂度:O(L)链表节点长度，空间复杂度:O(1)
  */
-+ (NSMutableArray *)sortArrayByParity:(NSMutableArray *)arr;
++ (ListNode *)removeNthFromEnd:(ListNode *)head n:(int)n;
 
 @end
 

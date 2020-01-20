@@ -13,7 +13,7 @@
 /* 双指针交换
  * 时间复杂度:O(n)，空间复杂度:O(1)
  */
-- (NSMutableArray *)sortArrayByParity:(NSMutableArray *)arr
++ (NSMutableArray *)sortArrayByParity:(NSMutableArray *)arr
 {
     int pre = 0;
     int last = (int)(arr.count - 1);

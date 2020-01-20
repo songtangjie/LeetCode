@@ -13,7 +13,7 @@
 /* 顶点法减少遍历次数【左下角】
  * 时间复杂度:O(m+n)，时间复杂度:O(1)
  */
-- (BOOL)searchMatrix:(NSArray<NSArray *> *)matrix target:(int)target
++ (BOOL)searchMatrix:(NSArray<NSArray *> *)matrix target:(int)target
 {
     int row = (int)(matrix.count - 1);
     int col = 0;
@@ -34,7 +34,7 @@
 /* 顶点法减少遍历次数【右上角】
  * 时间复杂度:O(m+n)，时间复杂度:O(1)
  */
-- (BOOL)searchMatrix2:(NSArray<NSArray *> *)matrix target:(int)target
++ (BOOL)searchMatrix2:(NSArray<NSArray *> *)matrix target:(int)target
 {
     if (matrix.count == 0) {
         return NO;
@@ -59,7 +59,7 @@
 /* 暴力法遍历
 * 时间复杂度:O(m*n)，时间复杂度:O(1)
 */
-- (BOOL)searchMatrix3:(NSArray<NSArray *> *)matrix target:(int)target
++ (BOOL)searchMatrix3:(NSArray<NSArray *> *)matrix target:(int)target
 {
     for (int i = 0; i < matrix.count; i++) {
         for (int j = 0; j < matrix[0].count; j++) {

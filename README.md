@@ -44,3 +44,6 @@ https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/
 
 Day16 按奇偶排序数组
 https://leetcode-cn.com/problems/sort-array-by-parity/
+
+Day17 删除链表的倒数第N个节点
+https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/

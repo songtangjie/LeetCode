@@ -14,7 +14,7 @@
 /* 从后往前，双指针查找插入
  * 时间复杂度:O(n+m)，时间复杂度:O(1)
  */
-- (void)merge1:(NSMutableArray *)num1 m:(int)m num2:(NSMutableArray *)nums2 n:(int)n
++ (void)merge1:(NSMutableArray *)num1 m:(int)m num2:(NSMutableArray *)nums2 n:(int)n
 {
     //记录num1索引
     int p1 = m-1;
@@ -38,7 +38,7 @@
 /* 合并后排序
 * 时间复杂度:O((n+m)log(n+m))，时间复杂度:O(1)
 */
-- (void)merge2:(NSMutableArray *)num1 m:(int)m num2:(NSMutableArray *)nums2 n:(int)n
++ (void)merge2:(NSMutableArray *)num1 m:(int)m num2:(NSMutableArray *)nums2 n:(int)n
 {
     [num1 addObjectsFromArray:nums2];
     [QuickSort quickSortNums:num1 low:0 high:(int)(num1.count-1)];

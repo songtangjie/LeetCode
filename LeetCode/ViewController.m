@@ -27,6 +27,7 @@
 #import "Day14.h"
 #import "Day15.h"
 #import "Day16.h"
+#import "Day17.h"
 
 @interface ViewController ()
 
@@ -53,21 +54,19 @@
 //    [self testDay13];
 //    [self testDay14];
 //    [self testDay15];
-    [self testDay16];
+//    [self testDay16];
+    [self testDay17];
 }
 
 - (void)testDay01
 {
-    Day01 *day01 = [[Day01 alloc]init];
-    NSLog(@"result1 is %d.",[day01 evalRPN:@[@"2", @"1", @"+", @"3", @"*"]]);
-    NSLog(@"result2 is %d.",[day01 evalRPN:@[@"4", @"13", @"5", @"/", @"+"]]);
-    NSLog(@"result3 is %d.",[day01 evalRPN:@[@"10", @"6", @"9", @"3", @"+", @"-11", @"*", @"/", @"*", @"17", @"+", @"5", @"+"]]);
+    NSLog(@"result1 is %d.",[Day01 evalRPN:@[@"2", @"1", @"+", @"3", @"*"]]);
+    NSLog(@"result2 is %d.",[Day01 evalRPN:@[@"4", @"13", @"5", @"/", @"+"]]);
+    NSLog(@"result3 is %d.",[Day01 evalRPN:@[@"10", @"6", @"9", @"3", @"+", @"-11", @"*", @"/", @"*", @"17", @"+", @"5", @"+"]]);
 }
 
 - (void)testDay02
 {
-    Day02 *day02 = [[Day02 alloc]init];
-    
     //链表一
     ListNode *node11 = [[ListNode alloc]initWithVal:1];
     ListNode *node12 = [[ListNode alloc]initWithVal:2];
@@ -83,7 +82,7 @@
     node22.next = node23;
 
     //打印结果
-    ListNode *resutl = [day02 mergeTwoLists2:node11 listNode:node21];
+    ListNode *resutl = [Day02 mergeTwoLists2:node11 listNode:node21];
     while (resutl) {
         NSLog(@"val is %d.",resutl.val);
         resutl = resutl.next;
@@ -102,8 +101,6 @@
 
 - (void)testDay03
 {
-    Day03 *day03 = [[Day03 alloc]init];
-    
     //链表一
     ListNode *node11 = [[ListNode alloc]initWithVal:1];
     ListNode *node12 = [[ListNode alloc]initWithVal:4];
@@ -124,7 +121,7 @@
     node31.next = node32;
 
     NSMutableArray *array = [NSMutableArray arrayWithObjects:node11,node21,node31, nil];
-    ListNode *result = [day03 mergeKLists4:array];
+    ListNode *result = [Day03 mergeKLists4:array];
     while (result) {
       NSLog(@"val is %d.",result.val);
       result = result.next;
@@ -162,8 +159,6 @@
 
 - (void)testDay05
 {
-    Day05 *day05 = [[Day05 alloc]init];
-    
     //树
     TreeNode *root = [[TreeNode alloc]initWithVal:-10];
     TreeNode *rootLeft = [[TreeNode alloc]initWithVal:9];
@@ -175,12 +170,12 @@
     TreeNode *rootRightR = [[TreeNode alloc]initWithVal:7];
     rootRight.right = rootRightR;
 
-    NSLog(@"sum = %d",[day05 maxPathSum:root]);
+    NSLog(@"sum = %d",[Day05 maxPathSum:root]);
 }
 
 - (void)testDay06
 {
-    Day06 *day06 = [[Day06 alloc]init];
+    Day06 *day06 = [Day06 new];
     
     //树
     TreeNode *root = [[TreeNode alloc]initWithVal:1];
@@ -200,18 +195,16 @@
 
 - (void)testDay07
 {
-    Day07 *day07 = [[Day07 alloc]init];
     NSArray *arr = @[@(1),@(2),@(3),@(1)];
 //    NSArray *arr = @[@(2),@(7),@(9),@(3),@(1)];
-    NSLog(@"result is %d", [day07 rob:arr]);
+    NSLog(@"result is %d", [Day07 rob:arr]);
 }
 
 - (void)testDay08
 {
-    Day08 *day08 = [[Day08 alloc]init];
     NSArray *arr = @[@(1),@(1),@(1),@(2),@(2),@(3),];
     
-    NSArray *result = [day08 topKFrequent:arr k:2];
+    NSArray *result = [Day08 topKFrequent:arr k:2];
     for (NSNumber *num in result) {
         NSLog(@"%@", num);
     }
@@ -219,7 +212,6 @@
 
 - (void)testDay09
 {
-    Day09 *day09 = [[Day09 alloc]init];
     NSArray *arr1 =  @[@[@"5",@"3",@".",@".",@"7",@".",@".",@".",@"."],@[@"6",@".",@".",@"1",@"9",@"5",@".",@".",@"."],@[@".",@"9",@"8",@".",@".",@".",@".",@"6",@"."],@[@"8",@".",@".",@".",@"6",@".",@".",@".",@"3"],@[@"4",@".",@".",@"8",@".",@"3",@".",@".",@"1"],@[@"7",@".",@".",@".",@"2",@".",@".",@".",@"6"],@[@".",@"6",@".",@".",@".",@".",@"2",@"8",@"."],@[@".",@".",@".",@"4",@"1",@"9",@".",@".",@"5"],@[@".",@".",@".",@".",@"8",@".",@".",@"7",@"9"]];
     
 //    NSArray *arr2 = @[
@@ -234,37 +226,30 @@
 //        @[@".",@".",@".",@".",@"8",@".",@".",@"7",@"9"]
 //    ];
     
-    NSLog([day09 isValidSudoku:arr1] ? @"Yes" : @"No");
+    NSLog([Day09 isValidSudoku:arr1] ? @"Yes" : @"No");
 }
 
 - (void)testDay10
 {
-    Day10 *day10 = [[Day10 alloc]init];
-    [day10 palindrome3:@"cbbd"];
+    [Day10 palindrome3:@"cbbd"];
 }
 
 - (void)testDay11
 {
-    Day11 *day = [[Day11 alloc]init];
-    
     NSMutableArray *array = [NSMutableArray arrayWithObjects:@(1),@(5),@(1),@(1),@(6),@(4), nil];
-    [day wiggleSort2:array];
+    [Day11 wiggleSort2:array];
 }
 
 - (void)testDay12
 {
-    Day12 *day = [[Day12 alloc]init];
-    
     NSMutableArray *array = [NSMutableArray arrayWithObjects:@(1),@(3),@(4),@(2),@(2), nil];
 //    NSMutableArray *array = [NSMutableArray arrayWithObjects:@(3),@(1),@(3),@(4),@(2), nil];
 //    NSMutableArray *array = [NSMutableArray arrayWithObjects:@(1),@(1), nil];
-    NSLog(@"重复数字是%d",[day findDuplicate3:array]);
+    NSLog(@"重复数字是%d",[Day12 findDuplicate3:array]);
 }
 
 - (void)testDay13
 {
-    Day13 *day = [[Day13 alloc]init];
-    
     NSArray *array = @[
       @[@1,   @4,  @7, @11, @15],
       @[@2,   @5,  @8, @12, @19],
@@ -273,34 +258,47 @@
       @[@18, @21, @23, @26, @30]
     ];
     
-    NSLog(@"是否有值%d", [day searchMatrix:array target:20]);
+    NSLog(@"是否有值%d", [Day13 searchMatrix:array target:20]);
 }
 
 - (void)testDay14
 {
-    Day14 *day = [Day14 new];
-    
     NSMutableArray *array1 = [NSMutableArray arrayWithObjects:@1,@2,@3,@0,@0,@0,@0,@0, nil];
     NSMutableArray *array2 = [NSMutableArray arrayWithObjects:@1,@1,@2,@5,@6, nil];
-    [day merge1:array1 m:3 num2:array2 n:5];
+    [Day14 merge1:array1 m:3 num2:array2 n:5];
 }
 
 - (void)testDay15
-{
-    Day15 *day = [Day15 new];
-    
+{ 
 //    NSMutableArray *array = [NSMutableArray arrayWithObjects:@3,@4,@5,@1,@2, nil];
     NSMutableArray *array = [NSMutableArray arrayWithObjects:@2,@2,@2,@0,@1, nil];
-    NSLog(@"最小值是%d",[day findMin:array]);
+    NSLog(@"最小值是%d",[Day15 findMin:array]);
 }
 
 - (void)testDay16
 {
-    Day16 *day = [Day16 new];
-    
 //    NSMutableArray *array = [NSMutableArray arrayWithObjects:@3,@4,@5,@1,@2, nil];
     NSMutableArray *array = [NSMutableArray arrayWithObjects:@3,@1,@2,@4, nil];
-    NSLog(@"%@",[day sortArrayByParity:array]);
+    NSLog(@"%@",[Day16 sortArrayByParity:array]);
+}
+
+- (void)testDay17
+{
+    ListNode *head = [[ListNode alloc]initWithVal:1];
+    ListNode *node2 = [[ListNode alloc]initWithVal:2];
+    head.next = node2;
+    ListNode *node3 = [[ListNode alloc]initWithVal:3];
+    node2.next = node3;
+    ListNode *node4 = [[ListNode alloc]initWithVal:4];
+    node3.next = node4;
+    ListNode *node5 = [[ListNode alloc]initWithVal:5];
+    node4.next = node5;
+
+    ListNode *newHead = [Day17 removeNthFromEnd:head n:2];
+    while (newHead) {
+        NSLog(@"%d",newHead.val);
+        newHead = newHead.next;
+    }
 }
 
 @end

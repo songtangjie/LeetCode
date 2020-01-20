@@ -15,7 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  前 K 个高频元素
 */
-- (NSArray<NSNumber *> *)topKFrequent:(NSArray<NSNumber *> *)nums k:(int)k;
++ (NSArray<NSNumber *> *)topKFrequent:(NSArray<NSNumber *> *)nums k:(int)k;
 
 @end
 

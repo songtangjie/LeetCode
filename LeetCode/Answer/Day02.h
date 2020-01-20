@@ -16,12 +16,12 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  有序的双链表合并【迭代】
  */
-- (ListNode *)mergeTwoLists:(ListNode *)l1 listNode:(ListNode *)l2;
++ (ListNode *)mergeTwoLists:(ListNode *)l1 listNode:(ListNode *)l2;
 
 /**
  有序的双链表合并【递归】
  */
-- (ListNode *)mergeTwoLists2:(ListNode *)l1 listNode:(ListNode *)l2;
++ (ListNode *)mergeTwoLists2:(ListNode *)l1 listNode:(ListNode *)l2;
 
 @end
 

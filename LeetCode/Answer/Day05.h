@@ -16,7 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  二叉树中的最大路径和
 */
-- (int)maxPathSum:(TreeNode *)root;
++ (int)maxPathSum:(TreeNode *)root;
 
 @end
 
