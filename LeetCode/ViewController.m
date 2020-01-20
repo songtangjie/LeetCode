@@ -28,6 +28,7 @@
 #import "Day15.h"
 #import "Day16.h"
 #import "Day17.h"
+#import "Day18.h"
 
 @interface ViewController ()
 
@@ -55,7 +56,8 @@
 //    [self testDay14];
 //    [self testDay15];
 //    [self testDay16];
-    [self testDay17];
+//    [self testDay17];
+    [self testDay18];
 }
 
 - (void)testDay01
@@ -299,6 +301,30 @@
         NSLog(@"%d",newHead.val);
         newHead = newHead.next;
     }
+}
+
+- (void)testDay18
+{
+    //树
+    TreeNode *tree1 = [[TreeNode alloc]initWithVal:3];
+    TreeNode *tree1Left = [[TreeNode alloc]initWithVal:4];
+    tree1.left = tree1Left;
+    TreeNode *tree1Right = [[TreeNode alloc]initWithVal:5];
+    tree1.right = tree1Right;
+    TreeNode *tree1LeftL = [[TreeNode alloc]initWithVal:1];
+    tree1Left.left = tree1LeftL;
+    TreeNode *tree1LeftR = [[TreeNode alloc]initWithVal:2];
+    tree1Left.right = tree1LeftR;
+    TreeNode *tree1LeftRL = [[TreeNode alloc]initWithVal:0];
+    tree1LeftR.left = tree1LeftRL;
+    
+    TreeNode *tree2 = [[TreeNode alloc]initWithVal:4];
+    TreeNode *tree2Left = [[TreeNode alloc]initWithVal:1];
+    tree2.left = tree2Left;
+    TreeNode *tree2Right = [[TreeNode alloc]initWithVal:2];
+    tree2.right = tree2Right;
+
+    NSLog(@"是否包含子树:%d",[Day18 isSubtree:tree1 t:tree2]);
 }
 
 @end
