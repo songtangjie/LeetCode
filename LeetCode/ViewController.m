@@ -30,6 +30,7 @@
 #import "Day17.h"
 #import "Day18.h"
 #import "Day19.h"
+#import "Day20.h"
 
 @interface ViewController ()
 
@@ -59,7 +60,8 @@
 //    [self testDay16];
 //    [self testDay17];
 //    [self testDay18];
-    [self testDay19];
+//    [self testDay19];
+    [self testDay20];
 }
 
 - (void)testDay01
@@ -350,6 +352,11 @@
         NSLog(@"%d",newHead.val);
         newHead = newHead.next;
     }
+}
+
+- (void)testDay20
+{
+    NSLog(@"是否包含%d",[Day20 isMatch:@"mississippi" p:@"mis*is*p*."]);
 }
 
 @end
