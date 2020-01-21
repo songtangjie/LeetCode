@@ -31,6 +31,7 @@
 #import "Day18.h"
 #import "Day19.h"
 #import "Day20.h"
+#import "Day21.h"
 
 @interface ViewController ()
 
@@ -61,7 +62,8 @@
 //    [self testDay17];
 //    [self testDay18];
 //    [self testDay19];
-    [self testDay20];
+//    [self testDay20];
+    [self testDay21];
 }
 
 - (void)testDay01
@@ -357,6 +359,42 @@
 - (void)testDay20
 {
     NSLog(@"是否包含%d",[Day20 isMatch:@"mississippi" p:@"mis*is*p*."]);
+}
+
+- (void)testDay21
+{
+    //树
+//    TreeNode *tree = [[TreeNode alloc]initWithVal:1];
+//
+//    TreeNode *treeLeft = [[TreeNode alloc]initWithVal:2];
+//    tree.left = treeLeft;
+//    TreeNode *treeRight = [[TreeNode alloc]initWithVal:2];
+//    tree.right = treeRight;
+//
+//    TreeNode *treeLeftL = [[TreeNode alloc]initWithVal:3];
+//    treeLeft.left = treeLeftL;
+//    TreeNode *treeLeftR = [[TreeNode alloc]initWithVal:4];
+//    treeLeft.right = treeLeftR;
+//
+//    TreeNode *treeRightL = [[TreeNode alloc]initWithVal:4];
+//    treeRight.left = treeRightL;
+//    TreeNode *treeRightR = [[TreeNode alloc]initWithVal:3];
+//    treeRight.right = treeRightR;
+    
+    TreeNode *tree = [[TreeNode alloc]initWithVal:1];
+    
+    TreeNode *treeLeft = [[TreeNode alloc]initWithVal:2];
+    tree.left = treeLeft;
+    TreeNode *treeRight = [[TreeNode alloc]initWithVal:2];
+    tree.right = treeRight;
+    
+    TreeNode *treeLeftR = [[TreeNode alloc]initWithVal:3];
+    treeLeft.right = treeLeftR;
+    
+    TreeNode *treeRightR = [[TreeNode alloc]initWithVal:3];
+    treeRight.right = treeRightR;
+
+    NSLog(@"是否是镜像树:%d",[Day21 isSymmetric:tree]);
 }
 
 @end
