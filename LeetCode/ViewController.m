@@ -29,6 +29,7 @@
 #import "Day16.h"
 #import "Day17.h"
 #import "Day18.h"
+#import "Day19.h"
 
 @interface ViewController ()
 
@@ -57,7 +58,8 @@
 //    [self testDay15];
 //    [self testDay16];
 //    [self testDay17];
-    [self testDay18];
+//    [self testDay18];
+    [self testDay19];
 }
 
 - (void)testDay01
@@ -325,6 +327,29 @@
     tree2.right = tree2Right;
 
     NSLog(@"是否包含子树:%d",[Day18 isSubtree:tree1 t:tree2]);
+}
+
+- (void)testDay19
+{
+    ListNode *head = [[ListNode alloc]initWithVal:1];
+    ListNode *node2 = [[ListNode alloc]initWithVal:2];
+    head.next = node2;
+    ListNode *node3 = [[ListNode alloc]initWithVal:3];
+    node2.next = node3;
+    ListNode *node4 = [[ListNode alloc]initWithVal:3];
+    node3.next = node4;
+    ListNode *node5 = [[ListNode alloc]initWithVal:4];
+    node4.next = node5;
+    ListNode *node6 = [[ListNode alloc]initWithVal:4];
+    node5.next = node6;
+    ListNode *node7 = [[ListNode alloc]initWithVal:5];
+    node6.next = node7;
+
+    ListNode *newHead = [Day19 deleteDuplicates:head];
+    while (newHead) {
+        NSLog(@"%d",newHead.val);
+        newHead = newHead.next;
+    }
 }
 
 @end

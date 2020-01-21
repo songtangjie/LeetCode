@@ -28,6 +28,7 @@
 		BEA0428223D587580009167F /* Day16.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA0428123D587580009167F /* Day16.m */; };
 		BEA0428523D5A3960009167F /* Day17.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA0428423D5A3960009167F /* Day17.m */; };
 		BEA0428823D5B00C0009167F /* Day18.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA0428723D5B00C0009167F /* Day18.m */; };
+		BEA40C4023D6DED700D83BF7 /* Day19.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA40C3F23D6DED700D83BF7 /* Day19.m */; };
 		BEB92206233BABE200321E5E /* Day05.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB92205233BABE200321E5E /* Day05.m */; };
 		BEBDBAF12368435F004E36FF /* Day09.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBDBAF02368435F004E36FF /* Day09.m */; };
 		BEE1AF8C233A0BA5009BED02 /* Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE1AF84233A0BA4009BED02 /* Queue.m */; };
@@ -100,6 +101,8 @@
 		BEA0428423D5A3960009167F /* Day17.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day17.m; sourceTree = "<group>"; };
 		BEA0428623D5B00C0009167F /* Day18.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Day18.h; sourceTree = "<group>"; };
 		BEA0428723D5B00C0009167F /* Day18.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day18.m; sourceTree = "<group>"; };
+		BEA40C3E23D6DED700D83BF7 /* Day19.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Day19.h; sourceTree = "<group>"; };
+		BEA40C3F23D6DED700D83BF7 /* Day19.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day19.m; sourceTree = "<group>"; };
 		BEB92204233BABE200321E5E /* Day05.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Day05.h; sourceTree = "<group>"; };
 		BEB92205233BABE200321E5E /* Day05.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day05.m; sourceTree = "<group>"; };
 		BEBDBAEF2368435F004E36FF /* Day09.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Day09.h; sourceTree = "<group>"; };
@@ -237,6 +240,8 @@
 				BEA0428423D5A3960009167F /* Day17.m */,
 				BEA0428623D5B00C0009167F /* Day18.h */,
 				BEA0428723D5B00C0009167F /* Day18.m */,
+				BEA40C3E23D6DED700D83BF7 /* Day19.h */,
+				BEA40C3F23D6DED700D83BF7 /* Day19.m */,
 			);
 			path = Answer;
 			sourceTree = "<group>";
@@ -407,6 +412,7 @@
 				BE3997762362C9E80022397E /* Day08.m in Sources */,
 				BE48D11E23ACCC34009C1F5D /* Day11.m in Sources */,
 				BEA0426723D041F10009167F /* Day14.m in Sources */,
+				BEA40C4023D6DED700D83BF7 /* Day19.m in Sources */,
 				BEA0428823D5B00C0009167F /* Day18.m in Sources */,
 				BEE1AF8C233A0BA5009BED02 /* Queue.m in Sources */,
 				BE4947A7234F7A510032FA6B /* Day06.m in Sources */,
