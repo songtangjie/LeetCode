@@ -32,6 +32,7 @@
 #import "Day19.h"
 #import "Day20.h"
 #import "Day21.h"
+#import "Day22.h"
 
 @interface ViewController ()
 
@@ -63,7 +64,8 @@
 //    [self testDay18];
 //    [self testDay19];
 //    [self testDay20];
-    [self testDay21];
+//    [self testDay21];
+    [self testDay22];
 }
 
 - (void)testDay01
@@ -395,6 +397,19 @@
     treeRight.right = treeRightR;
 
     NSLog(@"是否是镜像树:%d",[Day21 isSymmetric:tree]);
+}
+
+- (void)testDay22
+{
+    Day22 *day = [[Day22 alloc] init];
+    [day push:-2];
+    [day push:0];
+    [day push:-3];
+    
+    [day getMin];
+    [day pop];
+    [day top];
+    [day getMin];
 }
 
 @end
