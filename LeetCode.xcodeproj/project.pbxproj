@@ -43,6 +43,7 @@
 		BEE1AF98233A0BAE009BED02 /* Day01.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE1AF93233A0BAD009BED02 /* Day01.m */; };
 		BEE1AF9B233A0C76009BED02 /* Day04.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE1AF9A233A0C76009BED02 /* Day04.m */; };
 		BEE1AF9E233A0D19009BED02 /* TreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE1AF9D233A0D19009BED02 /* TreeNode.m */; };
+		BEF5283E23DEAFBB00D1F114 /* Day23.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF5283D23DEAFBB00D1F114 /* Day23.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -134,6 +135,8 @@
 		BEE1AF9A233A0C76009BED02 /* Day04.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day04.m; sourceTree = "<group>"; };
 		BEE1AF9C233A0D19009BED02 /* TreeNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TreeNode.h; sourceTree = "<group>"; };
 		BEE1AF9D233A0D19009BED02 /* TreeNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TreeNode.m; sourceTree = "<group>"; };
+		BEF5283C23DEAFBB00D1F114 /* Day23.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Day23.h; sourceTree = "<group>"; };
+		BEF5283D23DEAFBB00D1F114 /* Day23.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day23.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -257,6 +260,8 @@
 				BEA40C4523D7144300D83BF7 /* Day21.m */,
 				BEA40C4723D803D700D83BF7 /* Day22.h */,
 				BEA40C4823D803D700D83BF7 /* Day22.m */,
+				BEF5283C23DEAFBB00D1F114 /* Day23.h */,
+				BEF5283D23DEAFBB00D1F114 /* Day23.m */,
 			);
 			path = Answer;
 			sourceTree = "<group>";
@@ -414,6 +419,7 @@
 				BEE1AF98233A0BAE009BED02 /* Day01.m in Sources */,
 				BE8705D42337CB2100F03605 /* main.m in Sources */,
 				BE8705C62337CB2000F03605 /* ViewController.m in Sources */,
+				BEF5283E23DEAFBB00D1F114 /* Day23.m in Sources */,
 				BEE1AF8D233A0BA5009BED02 /* ListNode.m in Sources */,
 				BEA0427723D1BBFE0009167F /* Day15.m in Sources */,
 				BE525F1E238E53C5009BD896 /* Day10.m in Sources */,

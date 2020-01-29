@@ -33,6 +33,7 @@
 #import "Day20.h"
 #import "Day21.h"
 #import "Day22.h"
+#import "Day23.h"
 
 @interface ViewController ()
 
@@ -65,7 +66,8 @@
 //    [self testDay19];
 //    [self testDay20];
 //    [self testDay21];
-    [self testDay22];
+//    [self testDay22];
+    [self testDay23];
 }
 
 - (void)testDay01
@@ -410,6 +412,34 @@
     [day pop];
     [day top];
     [day getMin];
+}
+
+- (void)testDay23
+{
+    Node *head = [[Node alloc]initWithVal:7 next:nil random:nil];
+    
+    Node *node1 = [[Node alloc]initWithVal:13 next:nil random:nil];
+    head.next = node1;
+    node1.random = head;
+    
+    Node *node2 = [[Node alloc]initWithVal:11 next:nil random:nil];
+    node1.next = node2;
+    
+    Node *node3 = [[Node alloc]initWithVal:10 next:nil random:nil];
+    node2.next = node3;
+    node3.random = node2;
+    
+    Node *node4 = [[Node alloc]initWithVal:1 next:nil random:nil];
+    node3.next = node4;
+    node2.random = node4;
+    node4.random = head;
+
+    Day23 *day = [Day23 new];
+    Node *newHead = [day copyRandomList:head];
+    while (newHead) {
+        NSLog(@"%d--%@",newHead.val,newHead.random);
+        newHead = newHead.next;
+    }
 }
 
 @end
