@@ -35,6 +35,7 @@
 #import "Day22.h"
 #import "Day23.h"
 #import "Day24.h"
+#import "Day25.h"
 
 @interface ViewController ()
 
@@ -69,7 +70,8 @@
 //    [self testDay21];
 //    [self testDay22];
 //    [self testDay23];
-    [self testDay24];
+//    [self testDay24];
+    [self testDay25];
 }
 
 - (void)testDay01
@@ -471,6 +473,28 @@
         NSLog(@"%d",newHead.val);
         newHead = newHead.right;
     }
+}
+
+- (void)testDay25
+{
+    TreeNode *tree = [[TreeNode alloc]initWithVal:1];
+    
+    TreeNode *treeLeft = [[TreeNode alloc]initWithVal:2];
+    tree.left = treeLeft;
+    TreeNode *treeRight = [[TreeNode alloc]initWithVal:5];
+    tree.right = treeRight;
+    
+    TreeNode *treeRightL = [[TreeNode alloc]initWithVal:3];
+    treeLeft.left = treeRightL;
+    
+    TreeNode *treeRightR = [[TreeNode alloc]initWithVal:4];
+    treeLeft.right = treeRightR;
+
+    NSString *str = [Day25 serialize:tree];
+    NSLog(@"%@",str);
+    
+    TreeNode *newHead = [Day25 deserialize:str];
+
 }
 
 @end

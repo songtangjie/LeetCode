@@ -68,3 +68,6 @@ https://leetcode-cn.com/problems/copy-list-with-random-pointer/
 
 Day24 将二叉搜索树转化为排序的双向链表
 https://leetcode-cn.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/
+
+Day25 二叉树的序列化与反序列化
+https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/
