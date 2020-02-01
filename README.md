@@ -65,3 +65,6 @@ https://leetcode-cn.com/problems/min-stack/
 
 Day23 复制带随机指针的链表
 https://leetcode-cn.com/problems/copy-list-with-random-pointer/
+
+Day24 将二叉搜索树转化为排序的双向链表
+https://leetcode-cn.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/

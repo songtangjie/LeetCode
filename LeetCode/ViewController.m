@@ -34,6 +34,7 @@
 #import "Day21.h"
 #import "Day22.h"
 #import "Day23.h"
+#import "Day24.h"
 
 @interface ViewController ()
 
@@ -67,7 +68,8 @@
 //    [self testDay20];
 //    [self testDay21];
 //    [self testDay22];
-    [self testDay23];
+//    [self testDay23];
+    [self testDay24];
 }
 
 - (void)testDay01
@@ -439,6 +441,35 @@
     while (newHead) {
         NSLog(@"%d--%@",newHead.val,newHead.random);
         newHead = newHead.next;
+    }
+}
+
+- (void)testDay24
+{
+    Node24 *head = [Node24 new];
+    head.val = 4;
+    
+    Node24 *left = [Node24 new];
+    left.val = 2;
+    head.left = left;
+    
+    Node24 *right = [Node24 new];
+    right.val = 5;
+    head.right = right;
+    
+    Node24 *leftL = [Node24 new];
+    leftL.val = 1;
+    left.left = leftL;
+    
+    Node24 *leftR = [Node24 new];
+    leftR.val = 3;
+    left.right = leftR;
+
+    Day24 *day = [Day24 new];
+    Node24 *newHead = [day treeToDoublyList:head];
+    while (newHead) {
+        NSLog(@"%d",newHead.val);
+        newHead = newHead.right;
     }
 }
 
