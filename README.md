@@ -71,3 +71,6 @@ https://leetcode-cn.com/problems/convert-binary-search-tree-to-sorted-doubly-lin
 
 Day25 二叉树的序列化与反序列化
 https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/
+
+Day27 最大子序和
+https://leetcode-cn.com/problems/maximum-subarray/submissions/
