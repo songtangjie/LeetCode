@@ -74,3 +74,6 @@ https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/
 
 Day27 最大子序和
 https://leetcode-cn.com/problems/maximum-subarray/submissions/
+
+Day28 数字 1 的个数
+https://leetcode-cn.com/problems/number-of-digit-one/comments/

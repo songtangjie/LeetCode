@@ -37,6 +37,7 @@
 #import "Day24.h"
 #import "Day25.h"
 #import "Day27.h"
+#import "Day28.h"
 
 @interface ViewController ()
 
@@ -73,7 +74,8 @@
 //    [self testDay23];
 //    [self testDay24];
 //    [self testDay25];
-    [self testDay27];
+//    [self testDay27];
+    [self testDay28];
 }
 
 - (void)testDay01
@@ -503,6 +505,11 @@
 {
     NSMutableArray *array = [NSMutableArray arrayWithObjects:@-2,@1,@-3,@4,@-1,@2,@1,@-5,@4,nil];
     NSLog(@"%d",[Day27 maxSubArray:array]);
+}
+
+- (void)testDay28
+{
+    NSLog(@"%d",[Day28 countDigitOne:21345]);
 }
 
 @end
