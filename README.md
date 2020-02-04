@@ -77,3 +77,6 @@ https://leetcode-cn.com/problems/maximum-subarray/submissions/
 
 Day28 数字 1 的个数
 https://leetcode-cn.com/problems/number-of-digit-one/comments/
+
+Day29 第N个数字
+https://leetcode-cn.com/problems/nth-digit/submissions/

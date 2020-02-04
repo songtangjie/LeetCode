@@ -38,6 +38,7 @@
 #import "Day25.h"
 #import "Day27.h"
 #import "Day28.h"
+#import "Day29.h"
 
 @interface ViewController ()
 
@@ -75,7 +76,8 @@
 //    [self testDay24];
 //    [self testDay25];
 //    [self testDay27];
-    [self testDay28];
+//    [self testDay28];
+    [self testDay29];
 }
 
 - (void)testDay01
@@ -510,6 +512,11 @@
 - (void)testDay28
 {
     NSLog(@"%d",[Day28 countDigitOne:21345]);
+}
+
+- (void)testDay29
+{
+    NSLog(@"%d",[Day29 findNthDigit:1001]);
 }
 
 @end
