@@ -39,6 +39,9 @@
 #import "Day27.h"
 #import "Day28.h"
 #import "Day29.h"
+#import "BubbleSort.h"
+#import "SelectionSort.h"
+#import "Day31.h"
 
 @interface ViewController ()
 
@@ -77,7 +80,10 @@
 //    [self testDay25];
 //    [self testDay27];
 //    [self testDay28];
-    [self testDay29];
+//    [self testDay29];
+//    [self testBubbleSort];
+//    [self testSelectionSort];
+    [self testDay31];
 }
 
 - (void)testDay01
@@ -517,6 +523,31 @@
 - (void)testDay29
 {
     NSLog(@"%d",[Day29 findNthDigit:1001]);
+}
+
+- (void)testBubbleSort
+{
+    NSMutableArray *arr = [NSMutableArray arrayWithObjects:@"6",@"1",@"2",@"9",@"12",@"45",@"21",@"5", nil];
+    [BubbleSort bubbleSort:arr];
+
+    for (NSString *str in arr) {
+        NSLog(@"%d-",[str intValue]);
+    }
+}
+
+- (void)testSelectionSort
+{
+    NSMutableArray *arr = [NSMutableArray arrayWithObjects:@"6",@"1",@"2",@"9",@"12",@"45",@"21",@"5", nil];
+    [SelectionSort selectionSort:arr];
+
+    for (NSString *str in arr) {
+        NSLog(@"%d-",[str intValue]);
+    }
+}
+
+- (void)testDay31
+{
+    NSLog(@"最长不重复子串长度%d",[Day31 lengthOfLongestSubstring:@"abcabcbb"]);
 }
 
 @end
