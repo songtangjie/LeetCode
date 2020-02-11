@@ -42,6 +42,7 @@
 #import "BubbleSort.h"
 #import "SelectionSort.h"
 #import "Day31.h"
+#import "Day32.h"
 
 @interface ViewController ()
 
@@ -83,7 +84,8 @@
 //    [self testDay29];
 //    [self testBubbleSort];
 //    [self testSelectionSort];
-    [self testDay31];
+//    [self testDay31];
+    [self testDay32];
 }
 
 - (void)testDay01
@@ -548,6 +550,11 @@
 - (void)testDay31
 {
     NSLog(@"最长不重复子串长度%d",[Day31 lengthOfLongestSubstring:@"abcabcbb"]);
+}
+
+- (void)testDay32
+{
+    NSLog(@"是否是丑数%d",[Day32 isUgly:8]);
 }
 
 @end

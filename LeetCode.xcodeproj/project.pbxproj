@@ -13,6 +13,7 @@
 		BE2B425F23E91D6500274234 /* BubbleSort.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2B425E23E91D6500274234 /* BubbleSort.m */; };
 		BE2B426223E91E4E00274234 /* SelectionSort.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2B426123E91E4E00274234 /* SelectionSort.m */; };
 		BE2B426D23F0124B00274234 /* Day31.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2B426C23F0124B00274234 /* Day31.m */; };
+		BE2B427023F2402F00274234 /* Day32.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2B426F23F2402F00274234 /* Day32.m */; };
 		BE3997762362C9E80022397E /* Day08.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3997752362C9E80022397E /* Day08.m */; };
 		BE3997782362CFF40022397E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BE3997772362CFF40022397E /* README.md */; };
 		BE48D11E23ACCC34009C1F5D /* Day11.m in Sources */ = {isa = PBXBuildFile; fileRef = BE48D11D23ACCC34009C1F5D /* Day11.m */; };
@@ -84,6 +85,8 @@
 		BE2B426123E91E4E00274234 /* SelectionSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectionSort.m; sourceTree = "<group>"; };
 		BE2B426B23F0124B00274234 /* Day31.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Day31.h; sourceTree = "<group>"; };
 		BE2B426C23F0124B00274234 /* Day31.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day31.m; sourceTree = "<group>"; };
+		BE2B426E23F2402F00274234 /* Day32.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Day32.h; sourceTree = "<group>"; };
+		BE2B426F23F2402F00274234 /* Day32.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day32.m; sourceTree = "<group>"; };
 		BE3997742362C9E80022397E /* Day08.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Day08.h; sourceTree = "<group>"; };
 		BE3997752362C9E80022397E /* Day08.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day08.m; sourceTree = "<group>"; };
 		BE3997772362CFF40022397E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -312,6 +315,8 @@
 				BE2B425A23E9133600274234 /* Day29.m */,
 				BE2B426B23F0124B00274234 /* Day31.h */,
 				BE2B426C23F0124B00274234 /* Day31.m */,
+				BE2B426E23F2402F00274234 /* Day32.h */,
+				BE2B426F23F2402F00274234 /* Day32.m */,
 			);
 			path = Answer;
 			sourceTree = "<group>";
@@ -490,6 +495,7 @@
 				BE48D11E23ACCC34009C1F5D /* Day11.m in Sources */,
 				BEA0426723D041F10009167F /* Day14.m in Sources */,
 				BEA40C4023D6DED700D83BF7 /* Day19.m in Sources */,
+				BE2B427023F2402F00274234 /* Day32.m in Sources */,
 				BE2B426D23F0124B00274234 /* Day31.m in Sources */,
 				BEA0428823D5B00C0009167F /* Day18.m in Sources */,
 				BEA40C4623D7144300D83BF7 /* Day21.m in Sources */,
