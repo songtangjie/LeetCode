@@ -43,6 +43,8 @@
 #import "SelectionSort.h"
 #import "Day31.h"
 #import "Day32.h"
+#import "InsertionSort.h"
+#import "Day33.h"
 
 @interface ViewController ()
 
@@ -85,7 +87,9 @@
 //    [self testBubbleSort];
 //    [self testSelectionSort];
 //    [self testDay31];
-    [self testDay32];
+//    [self testDay32];
+//    [self testInsertionSort];
+    [self testDay33];
 }
 
 - (void)testDay01
@@ -555,6 +559,21 @@
 - (void)testDay32
 {
     NSLog(@"是否是丑数%d",[Day32 isUgly:8]);
+}
+
+- (void)testInsertionSort
+{
+    NSMutableArray *arr = [NSMutableArray arrayWithObjects:@"6",@"1",@"2",@"9",@"12",@"45",@"21",@"5", nil];
+    [InsertionSort insertionSort:arr];
+
+    for (NSString *str in arr) {
+        NSLog(@"%d-",[str intValue]);
+    }
+}
+
+- (void)testDay33
+{
+    NSLog(@"%d",[Day33 firstUniqChar:@"leetcode"]);
 }
 
 @end

@@ -86,3 +86,6 @@ https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/
 
 Day32 丑数
 https://leetcode-cn.com/problems/ugly-number/
+
+Day33 字符串中的第一个唯一字符
+https://leetcode-cn.com/problems/first-unique-character-in-a-string/
