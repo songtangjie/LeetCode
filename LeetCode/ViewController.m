@@ -45,6 +45,8 @@
 #import "Day32.h"
 #import "InsertionSort.h"
 #import "Day33.h"
+#import "MergeSort.h"
+#import "Day34.h"
 
 @interface ViewController ()
 
@@ -89,7 +91,9 @@
 //    [self testDay31];
 //    [self testDay32];
 //    [self testInsertionSort];
-    [self testDay33];
+//    [self testDay33];
+//    [self testMergeSort];
+    [self testDay34];
 }
 
 - (void)testDay01
@@ -574,6 +578,23 @@
 - (void)testDay33
 {
     NSLog(@"%d",[Day33 firstUniqChar:@"leetcode"]);
+}
+
+- (void)testMergeSort
+{
+    NSMutableArray *arr = [NSMutableArray arrayWithObjects:@"6",@"1",@"2",@"9",@"12",@"45",@"21",@"5", nil];
+    [MergeSort mergeSort:arr];
+
+    for (NSString *str in arr) {
+        NSLog(@"%d-",[str intValue]);
+    }
+}
+
+- (void)testDay34
+{
+    NSMutableArray *arr = [NSMutableArray arrayWithObjects:@"7",@"5",@"6",@"4", nil];
+
+    NSLog(@"逆序对有%d个",[Day34 reversePairs:arr]);
 }
 
 @end

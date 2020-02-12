@@ -16,6 +16,8 @@
 		BE2B427023F2402F00274234 /* Day32.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2B426F23F2402F00274234 /* Day32.m */; };
 		BE2B427323F2559300274234 /* InsertionSort.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2B427223F2559300274234 /* InsertionSort.m */; };
 		BE2B427623F2915D00274234 /* Day33.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2B427523F2915D00274234 /* Day33.m */; };
+		BE2B427923F2B18B00274234 /* MergeSort.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2B427823F2B18B00274234 /* MergeSort.m */; };
+		BE2B427C23F39D0300274234 /* Day34.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2B427B23F39D0300274234 /* Day34.m */; };
 		BE3997762362C9E80022397E /* Day08.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3997752362C9E80022397E /* Day08.m */; };
 		BE3997782362CFF40022397E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BE3997772362CFF40022397E /* README.md */; };
 		BE48D11E23ACCC34009C1F5D /* Day11.m in Sources */ = {isa = PBXBuildFile; fileRef = BE48D11D23ACCC34009C1F5D /* Day11.m */; };
@@ -93,6 +95,10 @@
 		BE2B427223F2559300274234 /* InsertionSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InsertionSort.m; sourceTree = "<group>"; };
 		BE2B427423F2915D00274234 /* Day33.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Day33.h; sourceTree = "<group>"; };
 		BE2B427523F2915D00274234 /* Day33.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day33.m; sourceTree = "<group>"; };
+		BE2B427723F2B18B00274234 /* MergeSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MergeSort.h; sourceTree = "<group>"; };
+		BE2B427823F2B18B00274234 /* MergeSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MergeSort.m; sourceTree = "<group>"; };
+		BE2B427A23F39D0300274234 /* Day34.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Day34.h; sourceTree = "<group>"; };
+		BE2B427B23F39D0300274234 /* Day34.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day34.m; sourceTree = "<group>"; };
 		BE3997742362C9E80022397E /* Day08.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Day08.h; sourceTree = "<group>"; };
 		BE3997752362C9E80022397E /* Day08.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day08.m; sourceTree = "<group>"; };
 		BE3997772362CFF40022397E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -208,6 +214,8 @@
 				BE2B426123E91E4E00274234 /* SelectionSort.m */,
 				BE2B427123F2559300274234 /* InsertionSort.h */,
 				BE2B427223F2559300274234 /* InsertionSort.m */,
+				BE2B427723F2B18B00274234 /* MergeSort.h */,
+				BE2B427823F2B18B00274234 /* MergeSort.m */,
 			);
 			path = Sort;
 			sourceTree = "<group>";
@@ -327,6 +335,8 @@
 				BE2B426F23F2402F00274234 /* Day32.m */,
 				BE2B427423F2915D00274234 /* Day33.h */,
 				BE2B427523F2915D00274234 /* Day33.m */,
+				BE2B427A23F39D0300274234 /* Day34.h */,
+				BE2B427B23F39D0300274234 /* Day34.m */,
 			);
 			path = Answer;
 			sourceTree = "<group>";
@@ -479,6 +489,7 @@
 			files = (
 				BE2B427623F2915D00274234 /* Day33.m in Sources */,
 				BEA5841A23E5387800AA8073 /* Day24.m in Sources */,
+				BE2B427923F2B18B00274234 /* MergeSort.m in Sources */,
 				BEA5841D23E56D7100AA8073 /* Day25.m in Sources */,
 				BEE1AF9B233A0C76009BED02 /* Day04.m in Sources */,
 				BE2B425F23E91D6500274234 /* BubbleSort.m in Sources */,
@@ -512,6 +523,7 @@
 				BEA0428823D5B00C0009167F /* Day18.m in Sources */,
 				BEA40C4623D7144300D83BF7 /* Day21.m in Sources */,
 				BEE1AF8C233A0BA5009BED02 /* Queue.m in Sources */,
+				BE2B427C23F39D0300274234 /* Day34.m in Sources */,
 				BE4947A7234F7A510032FA6B /* Day06.m in Sources */,
 				BEBDBAF12368435F004E36FF /* Day09.m in Sources */,
 				BEA0426123CF23A40009167F /* Day12.m in Sources */,
