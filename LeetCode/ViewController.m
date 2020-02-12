@@ -47,6 +47,7 @@
 #import "Day33.h"
 #import "MergeSort.h"
 #import "Day34.h"
+#import "Day35.h"
 
 @interface ViewController ()
 
@@ -93,7 +94,8 @@
 //    [self testInsertionSort];
 //    [self testDay33];
 //    [self testMergeSort];
-    [self testDay34];
+//    [self testDay34];
+    [self testDay35];
 }
 
 - (void)testDay01
@@ -595,6 +597,29 @@
     NSMutableArray *arr = [NSMutableArray arrayWithObjects:@"7",@"5",@"6",@"4", nil];
 
     NSLog(@"逆序对有%d个",[Day34 reversePairs:arr]);
+}
+
+- (void)testDay35
+{
+    ListNode *head1 = [[ListNode alloc]initWithVal:4];
+    ListNode *node2 = [[ListNode alloc]initWithVal:1];
+    head1.next = node2;
+    ListNode *node3 = [[ListNode alloc]initWithVal:8];
+    node2.next = node3;
+    ListNode *node4 = [[ListNode alloc]initWithVal:4];
+    node3.next = node4;
+    ListNode *node5 = [[ListNode alloc]initWithVal:5];
+    node4.next = node5;
+    
+    ListNode *head2 = [[ListNode alloc]initWithVal:5];
+    ListNode *node6 = [[ListNode alloc]initWithVal:0];
+    head2.next = node6;
+    ListNode *node7 = [[ListNode alloc]initWithVal:1];
+    node6.next = node7;
+    node7.next = node3;
+
+    ListNode *firstHead = [Day35 getIntersectionNode:head1 headB:head2];
+    NSLog(@"%d",firstHead.val);
 }
 
 @end
