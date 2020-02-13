@@ -49,6 +49,7 @@
 #import "Day34.h"
 #import "Day35.h"
 #import "Day36.h"
+#import "Day37.h"
 
 @interface ViewController ()
 
@@ -97,7 +98,8 @@
 //    [self testMergeSort];
 //    [self testDay34];
 //    [self testDay35];
-    [self testDay36];
+//    [self testDay36];
+    [self testDay37];
 }
 
 - (void)testDay01
@@ -633,6 +635,14 @@
     for (NSNumber *range in result) {
         NSLog(@"%d",[range intValue]);
     }
+}
+
+- (void)testDay37
+{
+//    NSMutableArray *arr = [NSMutableArray arrayWithObjects:@"5",@"7",@"7",@"8",@"8",@"10", nil];
+    NSMutableArray *arr = [NSMutableArray arrayWithObjects:@"0",@"1",@"3", nil];
+
+    NSLog(@"丢失的数字是%d",[Day37 missingNumber:arr]);
 }
 
 @end
