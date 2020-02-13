@@ -95,3 +95,6 @@ https://leetcode-cn.com/problems/shu-zu-zhong-de-ni-xu-dui-lcof/submissions/
 
 Day35 相交链表
 https://leetcode-cn.com/problems/intersection-of-two-linked-lists/
+
+Day36 在排序数组中查找元素的第一个和最后一个位置
+https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/submissions/

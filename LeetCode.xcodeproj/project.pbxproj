@@ -19,6 +19,7 @@
 		BE2B427923F2B18B00274234 /* MergeSort.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2B427823F2B18B00274234 /* MergeSort.m */; };
 		BE2B427C23F39D0300274234 /* Day34.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2B427B23F39D0300274234 /* Day34.m */; };
 		BE2B427F23F3A7C300274234 /* Day35.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2B427E23F3A7C300274234 /* Day35.m */; };
+		BE2B428623F4FC1000274234 /* Day36.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2B428523F4FC1000274234 /* Day36.m */; };
 		BE3997762362C9E80022397E /* Day08.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3997752362C9E80022397E /* Day08.m */; };
 		BE3997782362CFF40022397E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BE3997772362CFF40022397E /* README.md */; };
 		BE48D11E23ACCC34009C1F5D /* Day11.m in Sources */ = {isa = PBXBuildFile; fileRef = BE48D11D23ACCC34009C1F5D /* Day11.m */; };
@@ -102,6 +103,8 @@
 		BE2B427B23F39D0300274234 /* Day34.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day34.m; sourceTree = "<group>"; };
 		BE2B427D23F3A7C300274234 /* Day35.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Day35.h; sourceTree = "<group>"; };
 		BE2B427E23F3A7C300274234 /* Day35.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day35.m; sourceTree = "<group>"; };
+		BE2B428423F4FC1000274234 /* Day36.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Day36.h; sourceTree = "<group>"; };
+		BE2B428523F4FC1000274234 /* Day36.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day36.m; sourceTree = "<group>"; };
 		BE3997742362C9E80022397E /* Day08.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Day08.h; sourceTree = "<group>"; };
 		BE3997752362C9E80022397E /* Day08.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day08.m; sourceTree = "<group>"; };
 		BE3997772362CFF40022397E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -342,6 +345,8 @@
 				BE2B427B23F39D0300274234 /* Day34.m */,
 				BE2B427D23F3A7C300274234 /* Day35.h */,
 				BE2B427E23F3A7C300274234 /* Day35.m */,
+				BE2B428423F4FC1000274234 /* Day36.h */,
+				BE2B428523F4FC1000274234 /* Day36.m */,
 			);
 			path = Answer;
 			sourceTree = "<group>";
@@ -523,6 +528,7 @@
 				BE48D11E23ACCC34009C1F5D /* Day11.m in Sources */,
 				BEA0426723D041F10009167F /* Day14.m in Sources */,
 				BE2B427F23F3A7C300274234 /* Day35.m in Sources */,
+				BE2B428623F4FC1000274234 /* Day36.m in Sources */,
 				BEA40C4023D6DED700D83BF7 /* Day19.m in Sources */,
 				BE2B427023F2402F00274234 /* Day32.m in Sources */,
 				BE2B426D23F0124B00274234 /* Day31.m in Sources */,

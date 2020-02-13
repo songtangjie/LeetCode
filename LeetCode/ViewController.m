@@ -48,6 +48,7 @@
 #import "MergeSort.h"
 #import "Day34.h"
 #import "Day35.h"
+#import "Day36.h"
 
 @interface ViewController ()
 
@@ -95,7 +96,8 @@
 //    [self testDay33];
 //    [self testMergeSort];
 //    [self testDay34];
-    [self testDay35];
+//    [self testDay35];
+    [self testDay36];
 }
 
 - (void)testDay01
@@ -620,6 +622,17 @@
 
     ListNode *firstHead = [Day35 getIntersectionNode:head1 headB:head2];
     NSLog(@"%d",firstHead.val);
+}
+
+- (void)testDay36
+{
+//    NSMutableArray *arr = [NSMutableArray arrayWithObjects:@"5",@"7",@"7",@"8",@"8",@"10", nil];
+    NSMutableArray *arr = [NSMutableArray arrayWithObjects:@"2",@"2", nil];
+
+    NSMutableArray *result = [Day36 searchRange:arr target:2];
+    for (NSNumber *range in result) {
+        NSLog(@"%d",[range intValue]);
+    }
 }
 
 @end
