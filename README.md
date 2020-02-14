@@ -101,3 +101,6 @@ https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sort
 
 Day37 0～n-1中缺失的数字
 https://leetcode-cn.com/problems/que-shi-de-shu-zi-lcof/
+
+Day38 二叉搜索树的第k大节点
+https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/

@@ -50,6 +50,7 @@
 #import "Day35.h"
 #import "Day36.h"
 #import "Day37.h"
+#import "Day38.h"
 
 @interface ViewController ()
 
@@ -99,7 +100,8 @@
 //    [self testDay34];
 //    [self testDay35];
 //    [self testDay36];
-    [self testDay37];
+//    [self testDay37];
+    [self testDay38];
 }
 
 - (void)testDay01
@@ -643,6 +645,22 @@
     NSMutableArray *arr = [NSMutableArray arrayWithObjects:@"0",@"1",@"3", nil];
 
     NSLog(@"丢失的数字是%d",[Day37 missingNumber:arr]);
+}
+
+- (void)testDay38
+{
+    //树
+    TreeNode *tree = [[TreeNode alloc]initWithVal:3];
+    
+    TreeNode *treeLeft = [[TreeNode alloc]initWithVal:1];
+    tree.left = treeLeft;
+    TreeNode *treeRight = [[TreeNode alloc]initWithVal:4];
+    tree.right = treeRight;
+    
+    TreeNode *treeLeftR = [[TreeNode alloc]initWithVal:2];
+    treeLeft.right = treeLeftR;
+
+    NSLog(@"第k的值是:%d",[Day38 kthLargest:tree k:1]);
 }
 
 @end
