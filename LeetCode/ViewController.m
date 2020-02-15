@@ -52,6 +52,7 @@
 #import "Day37.h"
 #import "Day38.h"
 #import "Day39.h"
+#import "Day40.h"
 
 @interface ViewController ()
 
@@ -103,7 +104,8 @@
 //    [self testDay36];
 //    [self testDay37];
 //    [self testDay38];
-    [self testDay39];
+//    [self testDay39];
+    [self testDay40];
 }
 
 - (void)testDay01
@@ -681,6 +683,16 @@
     treeRight.right = treeRightR;
 
     NSLog(@"是否是二叉平衡树:%d",[Day39 isBalanced:tree]);
+}
+
+- (void)testDay40
+{
+    NSArray *arr = @[@(1),@(2),@(1),@(3),@(2),@(5)];
+
+    NSArray *result = [Day40 singleNumber:arr];
+    for (NSNumber *num in result) {
+        NSLog(@"出现一次的数字是%d",[num intValue]);
+    }
 }
 
 @end
