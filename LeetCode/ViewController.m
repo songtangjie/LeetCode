@@ -51,6 +51,7 @@
 #import "Day36.h"
 #import "Day37.h"
 #import "Day38.h"
+#import "Day39.h"
 
 @interface ViewController ()
 
@@ -101,7 +102,8 @@
 //    [self testDay35];
 //    [self testDay36];
 //    [self testDay37];
-    [self testDay38];
+//    [self testDay38];
+    [self testDay39];
 }
 
 - (void)testDay01
@@ -661,6 +663,24 @@
     treeLeft.right = treeLeftR;
 
     NSLog(@"第k的值是:%d",[Day38 kthLargest:tree k:1]);
+}
+
+- (void)testDay39
+{
+    //树
+    TreeNode *tree = [[TreeNode alloc]initWithVal:3];
+    
+    TreeNode *treeLeft = [[TreeNode alloc]initWithVal:9];
+    tree.left = treeLeft;
+    TreeNode *treeRight = [[TreeNode alloc]initWithVal:20];
+    tree.right = treeRight;
+    
+    TreeNode *treeRightL = [[TreeNode alloc]initWithVal:15];
+    treeRight.left = treeRightL;
+    TreeNode *treeRightR = [[TreeNode alloc]initWithVal:7];
+    treeRight.right = treeRightR;
+
+    NSLog(@"是否是二叉平衡树:%d",[Day39 isBalanced:tree]);
 }
 
 @end
