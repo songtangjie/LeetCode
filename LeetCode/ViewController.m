@@ -53,6 +53,7 @@
 #import "Day38.h"
 #import "Day39.h"
 #import "Day40.h"
+#import "Day41.h"
 
 @interface ViewController ()
 
@@ -105,7 +106,8 @@
 //    [self testDay37];
 //    [self testDay38];
 //    [self testDay39];
-    [self testDay40];
+//    [self testDay40];
+    [self testDay41];
 }
 
 - (void)testDay01
@@ -692,6 +694,16 @@
     NSArray *result = [Day40 singleNumber:arr];
     for (NSNumber *num in result) {
         NSLog(@"出现一次的数字是%d",[num intValue]);
+    }
+}
+
+- (void)testDay41
+{
+    NSArray *arr = @[@(2),@(7),@(11),@(15)];
+
+    NSArray *result = [Day41 twoSum:arr target:9];
+    for (NSNumber *num in result) {
+        NSLog(@"索引是%d",[num intValue]);
     }
 }
 

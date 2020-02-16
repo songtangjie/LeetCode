@@ -110,3 +110,6 @@ https://leetcode-cn.com/problems/balanced-binary-tree/
 
 Day40 只出现一次的数字 III
 https://leetcode-cn.com/problems/single-number-iii/
+
+Day41 和为s的两个数字
+https://leetcode-cn.com/problems/he-wei-sde-liang-ge-shu-zi-lcof/submissions/
