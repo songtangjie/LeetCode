@@ -113,3 +113,6 @@ https://leetcode-cn.com/problems/single-number-iii/
 
 Day41 和为s的两个数字
 https://leetcode-cn.com/problems/he-wei-sde-liang-ge-shu-zi-lcof/submissions/
+
+Day42 和为s的连续正数序列
+https://leetcode-cn.com/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof/submissions/

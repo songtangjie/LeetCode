@@ -52,6 +52,7 @@
 		BEB92206233BABE200321E5E /* Day05.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB92205233BABE200321E5E /* Day05.m */; };
 		BEBDBAF12368435F004E36FF /* Day09.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBDBAF02368435F004E36FF /* Day09.m */; };
 		BED93F9623F8D2CC007691D1 /* Day41.m in Sources */ = {isa = PBXBuildFile; fileRef = BED93F9523F8D2CC007691D1 /* Day41.m */; };
+		BED93F9923F8D95A007691D1 /* Day42.m in Sources */ = {isa = PBXBuildFile; fileRef = BED93F9823F8D95A007691D1 /* Day42.m */; };
 		BEE1AF8C233A0BA5009BED02 /* Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE1AF84233A0BA4009BED02 /* Queue.m */; };
 		BEE1AF8D233A0BA5009BED02 /* ListNode.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE1AF85233A0BA5009BED02 /* ListNode.m */; };
 		BEE1AF8E233A0BA5009BED02 /* QuickSort.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE1AF88233A0BA5009BED02 /* QuickSort.m */; };
@@ -173,6 +174,8 @@
 		BEBDBAF02368435F004E36FF /* Day09.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day09.m; sourceTree = "<group>"; };
 		BED93F9423F8D2CC007691D1 /* Day41.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Day41.h; sourceTree = "<group>"; };
 		BED93F9523F8D2CC007691D1 /* Day41.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day41.m; sourceTree = "<group>"; };
+		BED93F9723F8D95A007691D1 /* Day42.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Day42.h; sourceTree = "<group>"; };
+		BED93F9823F8D95A007691D1 /* Day42.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day42.m; sourceTree = "<group>"; };
 		BEE1AF84233A0BA4009BED02 /* Queue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Queue.m; sourceTree = "<group>"; };
 		BEE1AF85233A0BA5009BED02 /* ListNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListNode.m; sourceTree = "<group>"; };
 		BEE1AF86233A0BA5009BED02 /* ListNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListNode.h; sourceTree = "<group>"; };
@@ -372,6 +375,8 @@
 				BEEDA74A23F7D63600966031 /* Day40.m */,
 				BED93F9423F8D2CC007691D1 /* Day41.h */,
 				BED93F9523F8D2CC007691D1 /* Day41.m */,
+				BED93F9723F8D95A007691D1 /* Day42.h */,
+				BED93F9823F8D95A007691D1 /* Day42.m */,
 			);
 			path = Answer;
 			sourceTree = "<group>";
@@ -549,6 +554,7 @@
 				BE8D8F752352F2A000C75BCE /* Day07.m in Sources */,
 				BEA40C4323D6F4A700D83BF7 /* Day20.m in Sources */,
 				BE8705C02337CB2000F03605 /* AppDelegate.m in Sources */,
+				BED93F9923F8D95A007691D1 /* Day42.m in Sources */,
 				BEE1AF8E233A0BA5009BED02 /* QuickSort.m in Sources */,
 				BE2B426223E91E4E00274234 /* SelectionSort.m in Sources */,
 				BE8705C32337CB2000F03605 /* SceneDelegate.m in Sources */,

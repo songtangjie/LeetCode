@@ -54,6 +54,7 @@
 #import "Day39.h"
 #import "Day40.h"
 #import "Day41.h"
+#import "Day42.h"
 
 @interface ViewController ()
 
@@ -107,7 +108,8 @@
 //    [self testDay38];
 //    [self testDay39];
 //    [self testDay40];
-    [self testDay41];
+//    [self testDay41];
+    [self testDay42];
 }
 
 - (void)testDay01
@@ -704,6 +706,16 @@
     NSArray *result = [Day41 twoSum:arr target:9];
     for (NSNumber *num in result) {
         NSLog(@"索引是%d",[num intValue]);
+    }
+}
+
+- (void)testDay42
+{
+    NSMutableArray *result = [Day42 findContinuousSequence:9];
+    for (NSMutableArray *arr in result) {
+        for (NSNumber *num in arr) {
+            NSLog(@"索引是%d",[num intValue]);
+        }
     }
 }
 
