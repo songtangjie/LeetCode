@@ -55,6 +55,7 @@
 #import "Day40.h"
 #import "Day41.h"
 #import "Day42.h"
+#import "Day43.h"
 
 @interface ViewController ()
 
@@ -109,7 +110,8 @@
 //    [self testDay39];
 //    [self testDay40];
 //    [self testDay41];
-    [self testDay42];
+//    [self testDay42];
+    [self testDay43];
 }
 
 - (void)testDay01
@@ -717,6 +719,11 @@
             NSLog(@"索引是%d",[num intValue]);
         }
     }
+}
+
+- (void)testDay43
+{
+    NSLog(@"%@",[Day43 reverseWords:@"the sky is blue"]);
 }
 
 @end
