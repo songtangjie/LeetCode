@@ -119,3 +119,6 @@ https://leetcode-cn.com/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof/submis
 
 Day43 翻转字符串里的单词
 https://leetcode-cn.com/problems/reverse-words-in-a-string/submissions/
+
+Day44 n个骰子的点数
+https://leetcode-cn.com/problems/nge-tou-zi-de-dian-shu-lcof/

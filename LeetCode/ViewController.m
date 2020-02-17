@@ -56,6 +56,7 @@
 #import "Day41.h"
 #import "Day42.h"
 #import "Day43.h"
+#import "Day44.h"
 
 @interface ViewController ()
 
@@ -111,7 +112,8 @@
 //    [self testDay40];
 //    [self testDay41];
 //    [self testDay42];
-    [self testDay43];
+//    [self testDay43];
+    [self testDay44];
 }
 
 - (void)testDay01
@@ -724,6 +726,14 @@
 - (void)testDay43
 {
     NSLog(@"%@",[Day43 reverseWords:@"the sky is blue"]);
+}
+
+- (void)testDay44
+{
+    NSArray *result = [Day44 twoSum:2];
+    for (NSNumber *num in result) {
+        NSLog(@"%f",[num doubleValue]);
+    }
 }
 
 @end
