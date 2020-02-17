@@ -122,3 +122,6 @@ https://leetcode-cn.com/problems/reverse-words-in-a-string/submissions/
 
 Day44 n个骰子的点数
 https://leetcode-cn.com/problems/nge-tou-zi-de-dian-shu-lcof/
+
+Day45 扑克牌中的顺子
+https://leetcode-cn.com/problems/bu-ke-pai-zhong-de-shun-zi-lcof/
