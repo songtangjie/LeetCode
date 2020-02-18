@@ -60,6 +60,7 @@
 #import "Day45.h"
 #import "Day46.h"
 #import "Day47.h"
+#import "Day48.h"
 
 @interface ViewController ()
 
@@ -119,7 +120,8 @@
 //    [self testDay44];
 //    [self testDay45];
 //    [self testDay46];
-    [self testDay47];
+//    [self testDay47];
+    [self testDay48];
 }
 
 - (void)testDay01
@@ -757,6 +759,11 @@
 - (void)testDay47
 {
     NSLog(@"n个数和是%d",[Day47 sumNums:3]);
+}
+
+- (void)testDay48
+{
+    NSLog(@"和是%d",[Day48 add:5 b:17]);
 }
 
 

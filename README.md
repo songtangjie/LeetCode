@@ -131,3 +131,6 @@ https://leetcode-cn.com/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lco
 
 Day47 求1+2+…+n
 https://leetcode-cn.com/problems/qiu-12n-lcof/
+
+Day48 不用加减乘除做加法
+https://leetcode-cn.com/problems/bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof/
