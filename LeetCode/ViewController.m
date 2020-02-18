@@ -58,6 +58,7 @@
 #import "Day43.h"
 #import "Day44.h"
 #import "Day45.h"
+#import "Day46.h"
 
 @interface ViewController ()
 
@@ -115,7 +116,8 @@
 //    [self testDay42];
 //    [self testDay43];
 //    [self testDay44];
-    [self testDay45];
+//    [self testDay45];
+    [self testDay46];
 }
 
 - (void)testDay01
@@ -743,6 +745,11 @@
     NSMutableArray *arr = [NSMutableArray arrayWithObjects:@(0),@(0),@(1),@(2),@(5), nil];
 
     NSLog(@"是否是顺子%d",[Day45 isStraight:arr]);
+}
+
+- (void)testDay46
+{
+    NSLog(@"剩余数字是%d",[Day46 lastRemaining1:10 m:17]);
 }
 
 @end

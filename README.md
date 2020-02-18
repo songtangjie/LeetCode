@@ -125,3 +125,6 @@ https://leetcode-cn.com/problems/nge-tou-zi-de-dian-shu-lcof/
 
 Day45 扑克牌中的顺子
 https://leetcode-cn.com/problems/bu-ke-pai-zhong-de-shun-zi-lcof/
+
+Day46 圆圈中最后剩下的数字
+https://leetcode-cn.com/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/
