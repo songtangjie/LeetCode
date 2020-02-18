@@ -68,6 +68,7 @@
 		BEEF2F7923FA490A00CCA934 /* Day44.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEF2F7823FA490A00CCA934 /* Day44.m */; };
 		BEEF2F7C23FA92F800CCA934 /* Day45.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEF2F7B23FA92F800CCA934 /* Day45.m */; };
 		BEEF2F7F23FB83BD00CCA934 /* Day46.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEF2F7E23FB83BD00CCA934 /* Day46.m */; };
+		BEEF2F8223FB8F4500CCA934 /* Day47.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEF2F8123FB8F4500CCA934 /* Day47.m */; };
 		BEF5283E23DEAFBB00D1F114 /* Day23.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF5283D23DEAFBB00D1F114 /* Day23.m */; };
 /* End PBXBuildFile section */
 
@@ -210,6 +211,8 @@
 		BEEF2F7B23FA92F800CCA934 /* Day45.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day45.m; sourceTree = "<group>"; };
 		BEEF2F7D23FB83BD00CCA934 /* Day46.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Day46.h; sourceTree = "<group>"; };
 		BEEF2F7E23FB83BD00CCA934 /* Day46.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day46.m; sourceTree = "<group>"; };
+		BEEF2F8023FB8F4500CCA934 /* Day47.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Day47.h; sourceTree = "<group>"; };
+		BEEF2F8123FB8F4500CCA934 /* Day47.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day47.m; sourceTree = "<group>"; };
 		BEF5283C23DEAFBB00D1F114 /* Day23.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Day23.h; sourceTree = "<group>"; };
 		BEF5283D23DEAFBB00D1F114 /* Day23.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day23.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -397,6 +400,8 @@
 				BEEF2F7B23FA92F800CCA934 /* Day45.m */,
 				BEEF2F7D23FB83BD00CCA934 /* Day46.h */,
 				BEEF2F7E23FB83BD00CCA934 /* Day46.m */,
+				BEEF2F8023FB8F4500CCA934 /* Day47.h */,
+				BEEF2F8123FB8F4500CCA934 /* Day47.m */,
 			);
 			path = Answer;
 			sourceTree = "<group>";
@@ -582,6 +587,7 @@
 				BEE1AF8E233A0BA5009BED02 /* QuickSort.m in Sources */,
 				BE2B426223E91E4E00274234 /* SelectionSort.m in Sources */,
 				BE8705C32337CB2000F03605 /* SceneDelegate.m in Sources */,
+				BEEF2F8223FB8F4500CCA934 /* Day47.m in Sources */,
 				BEE1AF8F233A0BA5009BED02 /* Stack.m in Sources */,
 				BE3997762362C9E80022397E /* Day08.m in Sources */,
 				BE48D11E23ACCC34009C1F5D /* Day11.m in Sources */,

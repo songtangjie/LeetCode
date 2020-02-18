@@ -59,6 +59,7 @@
 #import "Day44.h"
 #import "Day45.h"
 #import "Day46.h"
+#import "Day47.h"
 
 @interface ViewController ()
 
@@ -117,7 +118,8 @@
 //    [self testDay43];
 //    [self testDay44];
 //    [self testDay45];
-    [self testDay46];
+//    [self testDay46];
+    [self testDay47];
 }
 
 - (void)testDay01
@@ -751,5 +753,11 @@
 {
     NSLog(@"剩余数字是%d",[Day46 lastRemaining1:10 m:17]);
 }
+
+- (void)testDay47
+{
+    NSLog(@"n个数和是%d",[Day47 sumNums:3]);
+}
+
 
 @end

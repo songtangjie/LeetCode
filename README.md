@@ -128,3 +128,6 @@ https://leetcode-cn.com/problems/bu-ke-pai-zhong-de-shun-zi-lcof/
 
 Day46 圆圈中最后剩下的数字
 https://leetcode-cn.com/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/
+
+Day47 求1+2+…+n
+https://leetcode-cn.com/problems/qiu-12n-lcof/
